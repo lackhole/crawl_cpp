@@ -5,8 +5,12 @@
 #include "libxml2/libxml/HTMLparser.h"
 #include "libxml2/libxml/xpath.h"
 #include <iostream>
-#include <fstream>
 #include <unordered_map>
+#include <queue>
+#include <condition_variable>
+#include <mutex>
+#include <chrono>
+#include <thread>
 
 #include "curlpp.hpp"
 
@@ -154,7 +158,6 @@ xpathSearch(xmlDocPtr doc, const xmlChar *xpath){
   }
   if(xmlXPathNodeSetIsEmpty(result->nodesetval)){
     xmlXPathFreeObject(result);
-    fprintf(stderr, "No result\n");
     return {nullptr, xmlXPathFreeObject};
   }
   return {result, xmlXPathFreeObject};
@@ -174,8 +177,124 @@ void xmlErrorHandler(void *ctx, const char* msg, ...){
 
 }
 
+class AsyncHtmlWorker{
+ public:
+
+  AsyncHtmlWorker() = default;
+
+  void setUrls(const std::vector<std::string>& urls_) {
+    for(const auto& url : urls_)
+      urls.emplace(url);
+  }
+
+  void run(int producer_num, int consumer_num) {
+    std::vector<std::thread> producer;
+    std::vector<std::thread> consumer;
+
+    for(int i=0; i<producer_num; ++i)
+      producer.emplace_back(std::mem_fn(&AsyncHtmlWorker::produce), this);
+
+    for(int j=0; j<consumer_num; ++j)
+      consumer.emplace_back(std::mem_fn(&AsyncHtmlWorker::consume), this);
+
+    for(auto& p : producer)
+      p.join();
+    {
+      std::unique_lock<std::mutex> lck(work_m);
+      produce_finished = true;
+    }
+    work_cv.notify_all();
+
+    for(auto& c : consumer)
+      c.join();
+  }
+
+ private:
+
+  void produce() {
+
+    std::unique_lock<std::mutex> lck(url_m);
+
+    while(!urls.empty()){
+
+      auto url = std::move(urls.front());
+      urls.pop();
+      lck.unlock();
+
+      printf("Requesting %s\n", url.c_str());
+      auto t1 = std::chrono::high_resolution_clock::now();
+      Curlpp curlpp;
+      if(!curlpp.init() || !curlpp.request(url.c_str()))
+        return;
+      auto t2 = std::chrono::high_resolution_clock::now();
+      printf("Got response from %s (%lldms)\n", url.c_str(), std::chrono::duration_cast<std::chrono::milliseconds>(t2 - t1).count());
+
+      std::string response;
+      response.resize(curlpp.bufferSize());
+      curlpp.get(const_cast<char *>(response.data()), response.size());
+
+      {
+        std::unique_lock<std::mutex> wlck(work_m);
+        work_queue.emplace(std::move(response), std::move(url));
+      }
+      work_cv.notify_one();
+      lck.lock();
+    }
+  }
+
+  void consume() {
+    std::unique_lock<std::mutex> lck(work_m);
+
+    for(;;){
+      work_cv.wait(lck, [&](){
+        return !work_queue.empty() || produce_finished;
+      });
+      if (work_queue.empty() && produce_finished) break;
+
+      auto data = std::move(work_queue.front());
+      work_queue.pop();
+
+      lck.unlock();
+      auto response = data.first;
+      // do something with response
+      std::this_thread::sleep_for(std::chrono::milliseconds(200));
+      printf("processed %s\n", data.second.c_str());
+      lck.lock();
+    }
+  }
+
+
+  std::queue<std::string> urls;
+  std::mutex url_m;
+
+  std::queue<std::pair<std::string, std::string>> work_queue;
+  std::mutex work_m;
+  std::condition_variable work_cv;
+
+  bool produce_finished = false;
+
+};
+
 int main(int argc, char *argv[])
 {
+
+  std::vector<std::string> urls = {
+      "https://google.com",
+      "https://naver.com",
+      "https://github.com",
+      "https://youtube.com",
+      "https://facebook.com",
+      "https://twitter.com",
+      "https://linkedin.com",
+      "https://edition.cnn.com",
+      "https://w3.org",
+      "https://wikipedia.org",
+  };
+
+  AsyncHtmlWorker ahw;
+
+  ahw.setUrls(urls);
+  ahw.run(5, 2);
 
   const char* url = "https://naver.com";
   std::string response;
@@ -187,7 +306,7 @@ int main(int argc, char *argv[])
   }
 
   // get response result
-  response.resize(curlpp.bufferSize() + 1);
+  response.resize(curlpp.bufferSize());
   curlpp.get(const_cast<char *>(response.data()), response.size());
 
 //  cout << response << endl;
@@ -210,7 +329,8 @@ int main(int argc, char *argv[])
     return -1;
   }
 
-  // xpath example
+//   xpath example
+  std::cout << "Naver news xpath search" << std::endl;
   auto result = xpathSearch(doc.get(), "//div[@class='issue_area']");
   if (result) {
     auto nodeset = result->nodesetval;
