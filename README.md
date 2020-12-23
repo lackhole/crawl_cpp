@@ -6,7 +6,7 @@ C++ web crawl
 * libcurl
 * libxml2
 
-### Example run
+### Example output
 * You can ignore parse errors  
 
 #### https://naver.com
