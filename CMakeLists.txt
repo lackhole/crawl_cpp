@@ -10,6 +10,8 @@ find_package(LibXml2 REQUIRED)
 include_directories(
         ${CURL_INCLUDE_DIR}
         ${LIBXML2_INCLUDE_DIR})
-add_executable(crawl main.cpp)
+add_executable(crawl
+        main.cpp
+        Curlpp.cpp)
 
 target_link_libraries(crawl ${CURL_LIBRARIES} ${LIBXML2_LIBRARIES})

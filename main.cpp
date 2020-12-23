@@ -2,10 +2,11 @@
 #include <string.h>
 #include <stdlib.h>
 #include <string>
-#include <curl/curl.h>
 #include "libxml2/libxml/HTMLparser.h"
 #include <iostream>
 #include <fstream>
+
+#include "Curlpp.hpp"
 
 using std::cout;
 using std::endl;
@@ -31,75 +32,6 @@ struct Context
   bool addTitle;
   std::string title;
 };
-
-//
-//  libcurl variables for error strings and returned data
-
-static char errorBuffer[CURL_ERROR_SIZE];
-static std::string buffer;
-
-//
-//  libcurl write callback function
-//
-
-static int writer(char *data, size_t size, size_t nmemb,
-                  std::string *writerData)
-{
-  if(writerData == NULL)
-    return 0;
-
-  writerData->append(data, size*nmemb);
-
-  return size * nmemb;
-}
-
-//
-//  libcurl connection initialization
-//
-
-static bool init(CURL *&conn, char *url)
-{
-  CURLcode code;
-
-  conn = curl_easy_init();
-
-  if(conn == NULL) {
-    fprintf(stderr, "Failed to create CURL connection\n");
-    exit(EXIT_FAILURE);
-  }
-
-  code = curl_easy_setopt(conn, CURLOPT_ERRORBUFFER, errorBuffer);
-  if(code != CURLE_OK) {
-    fprintf(stderr, "Failed to set error buffer [%d]\n", code);
-    return false;
-  }
-
-  code = curl_easy_setopt(conn, CURLOPT_URL, url);
-  if(code != CURLE_OK) {
-    fprintf(stderr, "Failed to set URL [%s]\n", errorBuffer);
-    return false;
-  }
-
-  code = curl_easy_setopt(conn, CURLOPT_FOLLOWLOCATION, 1L);
-  if(code != CURLE_OK) {
-    fprintf(stderr, "Failed to set redirect option [%s]\n", errorBuffer);
-    return false;
-  }
-
-  code = curl_easy_setopt(conn, CURLOPT_WRITEFUNCTION, writer);
-  if(code != CURLE_OK) {
-    fprintf(stderr, "Failed to set writer [%s]\n", errorBuffer);
-    return false;
-  }
-
-  code = curl_easy_setopt(conn, CURLOPT_WRITEDATA, &buffer);
-  if(code != CURLE_OK) {
-    fprintf(stderr, "Failed to set write data [%s]\n", errorBuffer);
-    return false;
-  }
-
-  return true;
-}
 
 //
 //  libxml start element callback function
@@ -230,6 +162,26 @@ static void parseHtml(const std::string &html,
   title = context.title;
 }
 
+// string that only contains control character and blanks return false
+bool check_str(const char* cstr, std::size_t n = -1){
+  if (cstr == NULL) return false;
+  if (cstr[0] == ' ' && strnlen(cstr, 2) == 1) return false;
+
+  auto len = strnlen(cstr, n);
+  for (int i=0; i<len; ++i) {
+    switch(cstr[i]){
+      case '\t':
+      case '\n':
+      case ' ':
+        break;
+      default:
+        return true;
+    }
+  }
+
+  return false;
+}
+
 static void
 print_element_names(xmlNode * a_node, int indent = 0)
 {
@@ -239,7 +191,9 @@ print_element_names(xmlNode * a_node, int indent = 0)
   for (cur_node = a_node; cur_node; cur_node = cur_node->next) {
     if (cur_node->type == XML_ELEMENT_NODE) {
       printf("\n%s", ind.c_str());
-      printf("<%s", cur_node->name);
+      printf("<");
+//      printf("%s:", cur_node->ns);
+      printf("%s", cur_node->name);
 
       for(auto attr = cur_node->properties; attr; attr = attr->next) {
         printf(" %s=", attr->name);
@@ -252,9 +206,12 @@ print_element_names(xmlNode * a_node, int indent = 0)
 
     // it cannot detect ::before, ::after
     if(cur_node->content) {
-      if (cur_node->content[0] != ' ' && strnlen(reinterpret_cast<const char *>(cur_node->content), 2) > 1){
+      if(check_str(reinterpret_cast<const char *>(cur_node->content))) {
         printf("\n%s", ind.c_str());
         printf("%s", cur_node->content);
+      }
+      if (strncmp(reinterpret_cast<const char *>(cur_node->content), " window.nmain.gv", 10) == 0) {
+        bool debug = true;
       }
     }
     print_element_names(cur_node->children, indent + 2);
@@ -268,36 +225,24 @@ print_element_names(xmlNode * a_node, int indent = 0)
 
 int main(int argc, char *argv[])
 {
-  CURL *conn = NULL;
-  CURLcode code;
-  std::string title;
 
-  // Ensure one argument is given
+  const char* url = "https://foobar123123123afefae.com";
+  std::string response;
 
-  char* url = "https://naver.com";
-
-  curl_global_init(CURL_GLOBAL_DEFAULT);
-
-  // Initialize CURL connection
-
-  if(!init(conn, url)) {
-    fprintf(stderr, "Connection initializion failed\n");
-    exit(EXIT_FAILURE);
+  Curlpp curlpp;
+  if(!curlpp.init() || !curlpp.request(url)){
+    return 0;
   }
 
-  // Retrieve content for the URL
+  response.resize(curlpp.bufferSize() + 1);
+  curlpp.get(const_cast<char *>(response.data()), response.size());
 
-  code = curl_easy_perform(conn);
-  curl_easy_cleanup(conn);
+  cout << response << endl;
 
-  if(code != CURLE_OK) {
-    fprintf(stderr, "Failed to get '%s' [%s]\n", url, errorBuffer);
-    exit(EXIT_FAILURE);
-  }
 
   // Parse the (assumed) HTML code
-  parseHtml(buffer, title);
-  htmlDocPtr doc = htmlParseDoc(reinterpret_cast<const xmlChar *>(buffer.c_str()), 0);
+//  parseHtml(buffer, title);
+  htmlDocPtr doc = htmlParseDoc(reinterpret_cast<const xmlChar *>(response.c_str()), NULL);
   if (doc == NULL) {
     std::cerr << "ERR\n";
     return -1;
@@ -305,8 +250,6 @@ int main(int argc, char *argv[])
 
   auto root_elem = xmlDocGetRootElement(doc);
   print_element_names(root_elem);
-
-//  std::cout << buffer << std::endl;
 
   // Display the extracted title
 //  printf("Title: %s\n", title.c_str());
