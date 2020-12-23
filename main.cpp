@@ -249,13 +249,12 @@ print_element_names(xmlNode * a_node, int indent = 0)
       printf(">");
 //      printf("node type: Element, name: %s, content:%s\n", cur_node->name, cur_node->content);
     }
+
+    // it cannot detect ::before, ::after
     if(cur_node->content) {
       if (cur_node->content[0] != ' ' && strnlen(reinterpret_cast<const char *>(cur_node->content), 2) > 1){
         printf("\n%s", ind.c_str());
         printf("%s", cur_node->content);
-        if (strncmp(reinterpret_cast<const char *>(cur_node->content), "관심주제 설정", 10) == 0) {
-          int debug = 0;
-        }
       }
     }
     print_element_names(cur_node->children, indent + 2);
