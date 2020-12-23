@@ -3,8 +3,10 @@
 #include <stdlib.h>
 #include <string>
 #include "libxml2/libxml/HTMLparser.h"
+#include "libxml2/libxml/xpath.h"
 #include <iostream>
 #include <fstream>
+#include <unordered_map>
 
 #include "curlpp.hpp"
 
@@ -21,145 +23,16 @@ using std::endl;
 #define COMPARE(a, b) (!strcasecmp((a), (b)))
 #endif
 
-//
-//  libxml callback context structure
-//
+std::unordered_map<xmlAttrPtr, xmlNodePtr>
+getKeyPair(xmlAttrPtr attr){
+  std::unordered_map<xmlAttrPtr, xmlNodePtr> m;
+  std::unordered_map<int*, int*> m2;
 
-struct Context
-{
-  Context(): addTitle(false) { }
-
-  bool addTitle;
-  std::string title;
-};
-
-//
-//  libxml start element callback function
-//
-
-static void StartElement(void *voidContext,
-                         const xmlChar *name,
-                         const xmlChar **attributes)
-{
-  Context *context = static_cast<Context *>(voidContext);
-
-//  std::printf("<%s>", name);
-  if(COMPARE(reinterpret_cast<const char *>(name), "TITLE")) {
-    context->title = "";
-    context->addTitle = true;
+  for(; attr; attr = attr->next){
+    m.emplace(attr, attr->children?attr->children:nullptr);
   }
-  (void) attributes;
-}
 
-//
-//  libxml end element callback function
-//
-
-static void EndElement(void *voidContext,
-                       const xmlChar *name)
-{
-  Context *context = static_cast<Context *>(voidContext);
-
-//  std::printf("</%s>\n", name);
-  if(COMPARE(reinterpret_cast<const char *>(name), "TITLE"))
-    context->addTitle = false;
-}
-
-//
-//  Text handling helper function
-//
-
-static void handleCharacters(Context *context,
-                             const xmlChar *chars,
-                             int length)
-{
-//  std::printf("%s", chars);
-  if(context->addTitle)
-    context->title.append(reinterpret_cast<const char *>(chars), length);
-}
-
-//
-//  libxml PCDATA callback function
-//
-
-static void Characters(void *voidContext,
-                       const xmlChar *chars,
-                       int length)
-{
-  Context *context = static_cast<Context *>(voidContext);
-
-  handleCharacters(context, chars, length);
-}
-
-//
-//  libxml CDATA callback function
-//
-
-static void cdata(void *voidContext,
-                  const xmlChar *chars,
-                  int length)
-{
-  Context *context = static_cast<Context *>(voidContext);
-
-  handleCharacters(context, chars, length);
-}
-
-//
-//  libxml SAX callback structure
-//
-
-static htmlSAXHandler saxHandler =
-    {
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        StartElement,
-        EndElement,
-        NULL,
-        Characters,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        NULL,
-        cdata,
-        NULL
-    };
-
-//
-//  Parse given (assumed to be) HTML text and return the title
-//
-
-static void parseHtml(const std::string &html,
-                      std::string &title)
-{
-  htmlParserCtxtPtr ctxt;
-  Context context;
-
-  ctxt = htmlCreatePushParserCtxt(&saxHandler, &context, "", 0, "",
-                                  XML_CHAR_ENCODING_NONE);
-
-  htmlParseChunk(ctxt, html.c_str(), html.size(), 0);
-  htmlParseChunk(ctxt, "", 0, 1);
-
-  htmlFreeParserCtxt(ctxt);
-
-
-
-  title = context.title;
+  return m;
 }
 
 // string that only contains control character and blanks return false
@@ -180,6 +53,42 @@ bool check_str(const char* cstr, std::size_t n = -1){
   }
 
   return false;
+}
+
+void printNode(xmlNode* node, int indent = 0) {
+//  std::string indent_str(indent, ' ');
+
+  if (node->type == XML_ELEMENT_NODE) {
+//    if (indent) printf("\n%s", indent_str.c_str());
+
+    printf("<");
+    printf("%s", node->name);
+
+    // print properties
+    if(node->properties) {
+      for (auto attr = node->properties; attr; attr = attr->next) {
+        printf(" %s=", attr->name);
+        if (attr->children)
+          printf("\'%s\'", attr->children->content);
+      }
+    }
+
+    printf(">");
+  }
+
+  if (node->content && check_str(reinterpret_cast<const char *>(node->content))) {
+//    printf("\n%s", indent_str.c_str());
+    printf("%s", node->content);
+  }
+  else if (node->children && node->children->type == XML_TEXT_NODE) {
+    printf("%s", node->children->content);
+  }
+
+  if(node->type == XML_ELEMENT_NODE){
+//    if(node->children)
+//      printf("\n%s", indent_str.c_str());
+    printf("</%s>\n", node->name);
+  }
 }
 
 static void
@@ -223,36 +132,111 @@ print_element_names(xmlNode * a_node, int indent = 0)
   }
 }
 
+
+
+
+xmlXPathObjectPtr
+getnodeset (xmlDocPtr doc, const xmlChar *xpath){
+
+  xmlXPathContextPtr context;
+  xmlXPathObjectPtr result;
+
+  context = xmlXPathNewContext(doc);
+  if (context == NULL) {
+    fprintf(stderr, "Error in xmlXPathNewContext\n");
+    return NULL;
+  }
+  result = xmlXPathEvalExpression(xpath, context);
+  xmlXPathFreeContext(context);
+  if (result == NULL) {
+    fprintf(stderr, "Error in xmlXPathEvalExpression\n");
+    return NULL;
+  }
+  if(xmlXPathNodeSetIsEmpty(result->nodesetval)){
+    xmlXPathFreeObject(result);
+    fprintf(stderr, "No result\n");
+    return NULL;
+  }
+  return result;
+}
+
+xmlXPathObjectPtr
+getnodeset(xmlDocPtr doc, const char* xpath) {
+  std::string temp(xpath);
+  return getnodeset(doc, reinterpret_cast<const xmlChar*>(temp.c_str()));
+}
+
+xmlXPathObjectPtr
+getnodeset(xmlNodePtr doc, const char* xpath) {
+  std::string temp(xpath);
+  return getnodeset(reinterpret_cast<xmlDocPtr>(doc), reinterpret_cast<const xmlChar*>(temp.c_str()));
+}
+
+void xmlErrorHandler(void *ctx, const char* msg, ...){
+
+}
+
 int main(int argc, char *argv[])
 {
 
   const char* url = "https://naver.com";
   std::string response;
 
+  // init curl and request url
   Curlpp curlpp;
   if(!curlpp.init() || !curlpp.request(url)){
     return 0;
   }
 
+  // get response result
   response.resize(curlpp.bufferSize() + 1);
   curlpp.get(const_cast<char *>(response.data()), response.size());
 
   cout << response << endl;
 
-  htmlDocPtr doc = htmlParseDoc(reinterpret_cast<const xmlChar *>(response.c_str()), NULL);
+  // parse string
+  xmlSetGenericErrorFunc(NULL, xmlErrorHandler);
+  htmlDocPtr doc = htmlParseDoc(reinterpret_cast<const xmlChar *>(response.c_str()), "UTF-8");
   if (doc == NULL) {
-    std::cerr << "ERR\n";
+    std::cerr << "Error while parsing html\n";
     return -1;
   }
 
-  auto root_elem = xmlDocGetRootElement(doc);
-  print_element_names(root_elem);
+  // xpath example
+  auto result = getnodeset(doc, "//div[@class='issue_area']");
+  if (result) {
+    auto nodeset = result->nodesetval;
+    for (int i=0; i < nodeset->nodeNr; i++) {
+      auto node = nodeset->nodeTab[i];
 
-  std::string title;
-  // Parse the (assumed) HTML code
-  parseHtml(response, title);
-  // Display the extracted title
-  printf("\nTitle: %s\n", title.c_str());
+
+      auto news = getnodeset(node, "//a[@href]");
+      if (news) {
+        auto nodeset2 = news->nodesetval;
+        for(int j=0; j<nodeset2->nodeNr; j++) {
+          auto node2 = nodeset2->nodeTab[j];
+
+//          if(node2->children)
+//            printf("%s\n", node2->children->content);
+
+          printNode(node2);
+        }
+
+        xmlXPathFreeObject(news);
+      }
+
+//      print_element_names(node);
+
+//      auto keyword = xmlNodeListGetString(doc, nodeset->nodeTab[i]->xmlChildrenNode, 1);
+//      printf("keyword: %s\n", keyword);
+//      xmlFree(keyword);
+    }
+    xmlXPathFreeObject(result);
+  }
+  xmlFreeDoc(doc);
+  xmlCleanupParser();
+
+
 
   return EXIT_SUCCESS;
 }
