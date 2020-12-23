@@ -1,0 +1,3065 @@
+
+<!doctype html>                <html lang="ko" data-dark="false"> <head> <meta charset="utf-8"> <title>NAVER</title> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=1190"> <meta name="apple-mobile-web-app-title" content="NAVER"/> <meta name="robots" content="index,nofollow"/> <meta name="description" content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요"/> <meta property="og:title" content="네이버"> <meta property="og:url" content="https://www.naver.com/"> <meta property="og:image" content="https://s.pstatic.net/static/www/mobile/edit/2016/0705/mobile_212852414260.png"> <meta property="og:description" content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요"/> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content=""> <meta name="twitter:url" content="https://www.naver.com/"> <meta name="twitter:image" content="https://s.pstatic.net/static/www/mobile/edit/2016/0705/mobile_212852414260.png"> <meta name="twitter:description" content="네이버 메인에서 다양한 정보와 유용한 컨텐츠를 만나 보세요"/>  <link rel="stylesheet" href="https://pm.pstatic.net/dist/css/nmain.20201119.css"> <link rel="stylesheet" href="https://ssl.pstatic.net/sstatic/search/pc/css/sp_autocomplete_201028.css"> <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?1"/>   <script>document.domain="naver.com",window.nmain=window.nmain||{},window.nmain.supportFlicking=!1;var nsc="navertop.v4",ua=navigator.userAgent;window.nmain.isIE=navigator.appName&&navigator.appName.indexOf("Explorer")>0&&ua.toLocaleLowerCase().indexOf("msie 10.0")<0,document.getElementsByTagName("html")[0].setAttribute("data-useragent",ua),window.nmain.isIE&&(Object.create=function(n){function a(){}return a.prototype=n,new a})</script> <script>var darkmode= false;window.naver_corp_da=window.naver_corp_da||{main:{}},window.naver_corp_da.main=window.naver_corp_da.main||{},window.naver_corp_da.main.darkmode=darkmode</script> <script> window.nmain.gv = {  isLogin: false,
+useId: null,   daInfo: {"ANIMAL":{"menu":"ANIMAL","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000161","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_animal_1","tb":"ANIMAL_1","unit":"SU10567","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000162","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_animal_2","tb":"ANIMAL_1","unit":"SU10568","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"BEAUTY":{"menu":"BEAUTY","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000163","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_beauty_1","tb":"BEAUTY_1","unit":"SU10595","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000164","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_beauty_2","tb":"BEAUTY_1","unit":"SU10596","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"BUSINESS":{"menu":"BUSINESS","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000165","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_business_1","tb":"BUSINESS_1","unit":"SU10577","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000166","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_business_2","tb":"BUSINESS_1","unit":"SU10578","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"CARGAME":{"menu":"CARGAME","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000167","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_cargame_1","tb":"CARGAME_1","unit":"SU10587","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000168","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_cargame_2","tb":"CARGAME_1","unit":"SU10588","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"CHINA":{"menu":"CHINA","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000169","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_china_1","tb":"CHINA_1","unit":"SU10591","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000170","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_china_2","tb":"CHINA_1","unit":"SU10592","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"DESIGN":{"menu":"DESIGN","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000171","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_design_1","tb":"DESIGN_1","unit":"SU10569","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000172","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_design_2","tb":"DESIGN_1","unit":"SU10570","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"FARM":{"menu":"FARM","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000173","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_farm_1","tb":"FARM_1","unit":"SU10561","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000174","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_farm_2","tb":"FARM_1","unit":"SU10562","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"FINANCE":{"menu":"FINANCE","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000175","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_finance_1","tb":"FINANCE_1","unit":"SU10563","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000176","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_finance_2","tb":"FINANCE_1","unit":"SU10564","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"ITTECH":{"menu":"ITTECH","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000177","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_ittech_1","tb":"ITTECH_1","unit":"SU10593","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000178","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_ittech_2","tb":"ITTECH_1","unit":"SU10594","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"JOB":{"menu":"JOB","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000179","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_job_1","tb":"JOB_1","unit":"SU10589","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000180","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_job_2","tb":"JOB_1","unit":"SU10590","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"LAW":{"menu":"LAW","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000181","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_law_1","tb":"LAW_1","unit":"SU10573","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000182","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_law_2","tb":"LAW_1","unit":"SU10574","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"LIVING":{"menu":"LIVING","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000183","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_living_1","tb":"LIVING_1","unit":"SU10597","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000184","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_living_2","tb":"LIVING_1","unit":"SU10606","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"LIVINGHOME":{"menu":"LIVINGHOME","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000185","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_livinghome_1","tb":"LIVINGHOME_1","unit":"SU10571","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000186","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_livinghome_2","tb":"LIVINGHOME_1","unit":"SU10572","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"MOMKIDS":{"menu":"MOMKIDS","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000187","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_momkids_1","tb":"MOMKIDS_1","unit":"SU10575","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000188","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_momkids_2","tb":"MOMKIDS_1","unit":"SU10576","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"MOVIE":{"menu":"MOVIE","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000189","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_movie_1","tb":"MOVIE_1","unit":"SU10585","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000190","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_movie_2","tb":"MOVIE_1","unit":"SU10586","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"SCHOOL":{"menu":"SCHOOL","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000191","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_school_1","tb":"SCHOOL_1","unit":"SU10579","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000192","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_school_2","tb":"SCHOOL_1","unit":"SU10580","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"SHOW":{"menu":"SHOW","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000193","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_show_1","tb":"SHOW_1","unit":"SU10565","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000194","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_show_2","tb":"SHOW_1","unit":"SU10566","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"TRAVEL":{"menu":"TRAVEL","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000195","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_travel_1","tb":"TRAVEL_1","unit":"SU10581","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000196","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_travel_2","tb":"TRAVEL_1","unit":"SU10582","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]},"WEDDING":{"menu":"WEDDING","childMenu":"","adType":"singleDom","multiDomAdUrl":"","multiDomUnit":"","infoList":[{"adposId":"1000197","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_wedding_1","tb":"WEDDING_1","unit":"SU10583","calp":"-"},"type":{"position":"abs","positionIndex":4,"subject":"contents"},"dom":null},{"adposId":"1000198","singleDomAdUrl":"https://siape.veta.naver.com/fxshow","param":{"da_dom_id":"p_main_wedding_2","tb":"WEDDING_1","unit":"SU10584","calp":"-"},"type":{"position":"abs","positionIndex":8,"subject":"contents"},"dom":null}]}},
+svt: 20201223174237,
+}; </script> <script> window.nmain.newsstand = {
+rcode: '09680103',
+newsCastSubsInfo: '',
+newsStandSubsInfo: ''
+};
+window.etc = {  };
+window.svr = "<!--aweb207-->"; </script> <script src="https://ssl.pstatic.net/tveta/libs/assets/js/pc/main/min/pc.veta.core.min.js" defer="defer"></script> <script src="https://ssl.pstatic.net/tveta/libs/assets/js/common/min/probe.min.js" defer="defer"></script>   <script src="https://pm.pstatic.net/dist/js/external.f7eebdcb.js?o=www" type="text/javascript" crossorigin="anonymous" defer="defer"></script> <script src="https://pm.pstatic.net/dist/js/preload.19891a82.js?o=www" type="text/javascript" crossorigin="anonymous" defer="defer"></script> <script src="https://pm.pstatic.net/dist/js/polyfill_async.f98bbe5a.js?o=www" type="text/javascript" crossorigin="anonymous" async></script>  <script src="https://pm.pstatic.net/dist/js/vendors~search.c2a0c3df.js?o=www" type="text/javascript" crossorigin="anonymous" defer="defer"></script>   <script src="https://pm.pstatic.net/dist/js/search.a69bb735.js?o=www" type="text/javascript" crossorigin="anonymous" defer="defer"></script>  <script src="https://pm.pstatic.net/dist/js/vendors~more~nmain~sidebar_notice.a0c019da.js?o=www" type="text/javascript" crossorigin="anonymous" defer="defer"></script> <script src="https://pm.pstatic.net/dist/js/vendors~nmain.f696c04e.js?o=www" type="text/javascript" crossorigin="anonymous" defer="defer"></script> <script src="https://pm.pstatic.net/dist/js/nmain.0e781bcf.js?o=www" type="text/javascript" crossorigin="anonymous" defer="defer"></script> <style>:root{color-scheme:light}#_nx_kbd .setkorhelp a{display:none}</style> </head> <body> <div id="u_skip"> <a href="#newsstand"><span>뉴스스탠드 바로가기</span></a> <a href="#themecast"><span>주제별캐스트 바로가기</span></a> <a href="#timesquare"><span>타임스퀘어 바로가기</span></a> <a href="#shopcast"><span>쇼핑캐스트 바로가기</span></a> <a href="#account"><span>로그인 바로가기</span></a> </div> <div id="wrap"> <style type="text/css">._1syGnXOL{padding-right:18px;font-size:14px;line-height:0;letter-spacing:-.25px;color:#000}._1syGnXOL span,._1syGnXOL strong{line-height:49px}._1syGnXOL:before{display:inline-block;content:"";vertical-align:top;background-image:url(https://static-whale.pstatic.net/main/sprite-20201210@2x.png);background-repeat:no-repeat;background-size:114px 107px;width:18px;height:18px;margin:16px 8px 0 0;background-position:0 -89px}[data-useragent*="MSIE 8"] ._1syGnXOL:before{background-image:url(https://static-whale.pstatic.net/main/sprite-20201210.png)}._1syGnXOL._3dsvmZg2:before{background-position:-68px -63px}._1syGnXOL._1NBFx1WK:before{width:20px;height:20px;margin:15px 8px 0 0;background-position:-26px -85px}._1syGnXOL._2mcQEKCd:before{width:22px;height:22px;margin:14px 7px 0 0;background-position:-26px -63px}._1syGnXOL._18YOHi7v{color:#fff}._1syGnXOL._3di88A4c{padding-right:12px;font-size:17px}._1syGnXOL._3di88A4c:before{content:none}._1syGnXOL._3jtl_dKE{font-size:16px}._1syGnXOL ._19K4X1CD{text-decoration:underline}._2aeXMlrb{display:inline-block;position:relative;font-size:12px;height:49px;width:78px;text-decoration:none;color:#fff;font-weight:700;letter-spacing:-.5px;vertical-align:top}._2aeXMlrb span{text-align:center;margin:9px 0;height:31px;display:block;line-height:31px;border-radius:15px}._2aeXMlrb span:before{display:inline-block;content:"";vertical-align:top;background-image:url(https://static-whale.pstatic.net/main/sprite-20201210@2x.png);background-repeat:no-repeat;background-size:114px 107px}[data-useragent*="MSIE 8"] ._2aeXMlrb span:before{background-image:url(https://static-whale.pstatic.net/main/sprite-20201210.png)}._2aeXMlrb.BMgpjddw{font-size:11px;width:94px}._2aeXMlrb.BMgpjddw span:before{margin:9px 3px 0 0;width:17px;height:13px;background-position:-98px -30px}._3h-N8T9V{position:absolute;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0)}._1KncATpM{display:inline-block;content:"";vertical-align:top;background-image:url(https://static-whale.pstatic.net/main/sprite-20201210@2x.png);background-repeat:no-repeat;background-size:114px 107px;margin-top:14px;float:left;width:98px;height:21px;background-position:0 -21px}[data-useragent*="MSIE 8"] ._1KncATpM{background-image:url(https://static-whale.pstatic.net/main/sprite-20201210.png)}._1KncATpM._2v3uxv2x{background-position:0 0}._1KncATpM._1yl_Ow6o{background-position:0 -42px}._20PYt6lT{font-size:11px;height:49px;cursor:pointer;position:absolute;top:0;right:0;color:#666;opacity:.7}._20PYt6lT:after{width:15px;height:15px;margin-left:4px;background-position:-98px 0;display:inline-block;content:"";vertical-align:top;background-image:url(https://static-whale.pstatic.net/main/sprite-20201210@2x.png);background-repeat:no-repeat;background-size:114px 107px}[data-useragent*="MSIE 8"] ._20PYt6lT:after{background-image:url(https://static-whale.pstatic.net/main/sprite-20201210.png)}._20PYt6lT._39oMCV2N:after{background-position:-98px -15px}._20PYt6lT._3wm5EzmJ{color:#fff}._20PYt6lT._3wm5EzmJ:after{background-position:-48px -83px}._1hiMWemA{height:49px}._1hiMWemA .tY_u8r23{position:relative;width:1130px;margin:0 auto}._1hiMWemA .tY_u8r23 a{text-decoration:none}._1hiMWemA._23U_6TM_{position:relative}._1hiMWemA._23U_6TM_:after{position:absolute;z-index:1;content:"";display:block;width:100%;height:1px;bottom:0;background-color:rgba(0,0,0,.05)}</style>                  
+<div id="NM_TOP_BANNER" data-clk-prefix="top" class="_1hiMWemA"
+style="background-color: #3c3f48;">
+<div class="tY_u8r23">
+<a class="_3h-N8T9V" href='https://whale.naver.com/details/darkmode?=main&wpid=RydDy7'
+data-clk="dropbanner1b"></a>
+<i class="_1KncATpM _1yl_Ow6o"><span class="blind">NAVER whale</span></i>
+<img src="https://static-whale.pstatic.net/main/img_darkmode_v2@2x.png" width="303" height="49" alt=""
+style="padding-left: 34px;"/>
+<span class="_1syGnXOL _18YOHi7v _3jtl_dKE _3di88A4c" data-clk="dropbanner1b" style="padding-right: 10px; padding-left: 12px;">
+<span>여러분의 눈은 소중하니까, </span><strong>웹 페이지까지 다크하게!</strong></span>
+<a href='https://installer-whale.pstatic.net/downloads/banner/RydDy7/WhaleSetup.exe' class="_2aeXMlrb BMgpjddw" id="NM_whale_download_btn"
+data-clk="dropdownload1b"><span style="background-color: #875af1;">다운로드</span></a>
+<button type="button" data-ui-cookie-exp-days="3" data-ui-cookie-key="NM_TOP_PROMOTION" data-ui-cookie-value="1"
+data-ui-hide-target="#NM_TOP_BANNER" data-clk="dropclose1b" class="_20PYt6lT _3wm5EzmJ"
+style="display: none;">3일 동안 보지 않기
+</button>
+</div>
+</div>  <div id="header" role="banner">
+
+
+
+
+
+
+
+
+<div class="special_bg">
+<div class="group_flex">
+<div class="logo_area">
+<h1 class="logo_special">
+<img
+src="https://s.pstatic.net/static/www/mobile/edit/2020/1222/mobile_223809730505.gif"
+width="415"
+height="160"
+class="special_img"
+alt="5인 이상 모임은 조금만 미뤄주세요!"
+/>
+<a
+href="https://search.naver.com/search.naver?where=nexearch&amp;sm=top_brd&amp;fbm=1&amp;ie=utf8&amp;query=5%EC%9D%B8+%EC%9D%B4%EC%83%81+%EC%A7%91%ED%95%A9%EA%B8%88%EC%A7%80"
+class="special_logo_link"
+title="5인 이상 모임은 조금만 미뤄주세요!"
+data-clk="top.spe"
+>
+<img
+src="https://s.pstatic.net/static/www/mobile/edit/2020/1222/mobile_223827482226.png"
+width="58"
+height="60"
+class="special_img_fold"
+alt="5인 이상 모임은 조금만 미뤄주세요!"
+/>
+</a>
+</h1>
+</div>
+<div class="service_area">
+<a id="NM_set_home_btn" href="https://help.naver.com/support/welcomePage/guide.help" class="link_set" data-clk="top.mkhome">네이버를 시작페이지로</a>
+<i class="sa_bar"></i>
+<a href="https://jr.naver.com" class="link_jrnaver" data-clk="top.jrnaver"><i class="ico_jrnaver"></i><span class="blind">쥬니어네이버</span></a>
+<a href="https://happybean.naver.com" class="link_happybin" data-clk="top.happybean"><i class="ico_happybin"></i><span class="blind">해피빈</span></a>
+</div>
+
+<div id="search" class="search_area" data-clk-prefix="sch">
+<form id="sform" name="sform" action="https://search.naver.com/search.naver" method="get" role="search">
+<fieldset>
+<legend class="blind">검색</legend>
+<select id="where" name="where" title="검색 범위 선택" class="blind">
+<option value="nexearch" selected="selected">통합검색</option><option value="post">블로그</option><option value="cafeblog">카페</option><option value="cafe">- 카페명</option><option value="article">- 카페글</option><option value="kin">지식iN</option><option value="news">뉴스</option><option value="web">사이트</option><option value="category">- 카테고리</option><option value="site">- 사이트</option><option value="movie">영화</option><option value="webkr">웹문서</option><option value="dic">사전</option><option value="100">- 백과사전</option><option value="endic">- 영어사전</option><option value="eedic">- 영영사전</option><option value="krdic">- 국어사전</option><option value="jpdic">- 일본어사전</option><option value="hanja">- 한자사전</option><option value="terms">- 용어사전</option><option value="book">책</option><option value="music">음악</option><option value="doc">전문자료</option><option value="shop">쇼핑</option><option value="local">지역</option><option value="video">동영상</option><option value="image">이미지</option><option value="mypc">내PC</option><optgroup label="스마트 파인더"><option value="movie">영화</option><option value="auto">자동차</option><option value="game">게임</option><option value="health">건강</option><option value="people">인물</option></optgroup><optgroup label="네이버 랩"><option>긍정부정검색</option></optgroup>
+</select>
+<input type="hidden" id="sm" name="sm" value="top_hty" />
+<input type="hidden" id="fbm" name="fbm" value="0" />
+<input type="hidden" id="acr" name="acr" value="" disabled="disabled" />
+<input type="hidden" id="acq" name="acq" value="" disabled="disabled" />
+<input type="hidden" id="qdt" name="qdt" value="" disabled="disabled" />
+<input type="hidden" id="ie" name="ie" value="utf8" />
+<input type="hidden" id="acir" name="acir" value="" disabled="disabled" />
+<input type="hidden" id="os" name="os" value="" disabled="disabled" />
+<input type="hidden" id="bid" name="bid" value="" disabled="disabled" />
+<input type="hidden" id="pkid" name="pkid" value="" disabled="disabled" />
+<input type="hidden" id="eid" name="eid" value="" disabled="disabled" />
+<input type="hidden" id="mra" name="mra" value="" disabled="disabled" />
+
+
+
+<div class="green_window" style=''>
+<!-- [AU] data-atcmp-element 에 해당하는 attribute를 추가해주세요. -->
+<input id="query" name="query" type="text" title="검색어 입력" maxlength="255" class="input_text" tabindex="1" accesskey="s" style="ime-mode:active;" autocomplete="off"  placeholder="검색어를 입력해 주세요." onclick="document.getElementById('fbm').value=1;" value="" data-atcmp-element>
+</div>
+<button id="search_btn" type="submit" title="검색" tabindex="3" class="btn_submit" onclick="window.nclick(this,'sch.action','','',event);" style=''>
+<span class="blind">검색</span>
+<span class="ico_search_submit"></span>
+</button>
+</fieldset>
+</form>
+<!-- 한글입력기 -->
+<a href="#" id="ke_kbd_btn" role="button" class="btn_keyboard" onclick="return false;"><span class="blind">한글 입력기</span><span class="ico_keyboard"></span></a>
+<div id="_nx_kbd" style="display:none;"></div>
+<div class="autocomplete">
+<!-- 자동완성 열린 경우 fold 클래스 추가, 딤드인 경우 dim 추가 -->
+<a href="#" role="button" id="nautocomplete" tabindex="2" class="btn_arw _btn_arw fold" aria-pressed="false" data-atcmp-element><span class="blind">자동완성 레이어</span><span class="ico_arr"></span></a>
+</div>
+<!-- 자동완성레이어 -->
+<div id="autoFrame" class="reatcmp" style="display: none;">
+<!-- [AU] data-atcmp-element attribute를 추가해주세요. -->
+<div class="ly_atcmp" data-atcmp-element>
+<div class="api_atcmp_wrap">
+<!-- 최근검색어 -->
+<!-- [AU] _recent_layer 클래스를 추가해주세요. -->
+<div class="atcmp_fixer _recent_layer" style="display:none;">
+<!-- [AU] _recent_header 클래스를 추가해주세요. -->
+<div class="atcmp_header _recent_header">
+<strong class="tit">최근검색어</strong>
+<div class="option">
+<!-- [AU] _delAll 클래스를 추가해주세요. -->
+<a role="button" href="#" class="item _delAll" aria-pressed="false">전체삭제</a>
+</div>
+</div>
+<div class="atcmp_container">
+<!-- [AU] _recent 클래스를 추가해주세요. -->
+<ul class="kwd_lst _recent">
+<!-- 최근검색어 템플릿 -->
+<!-- [AU] _item 클래스를 추가해주세요. -->
+<!-- [AU] data-template-type="history" data-keyword="@in_txt@" attribute를 추가해주세요. -->
+<li class="item _item" data-rank="@rank@" data-template-type="history" data-keyword="@in_txt@">
+<a href="#" class="kwd">
+<span class="fix"><span class="common_ico_kwd"><i class="imsc ico_search"></i></span><span>@txt@</span></span>
+</a>
+<span class="etc">
+<em class="date">@date@.</em>
+<!-- [AU] _del 클래스를 추가해주세요. -->
+<a href="#" role="button" class="bt_item _del" aria-pressed="false"><i class="imsc ico_del">삭제</i></a>
+</span>
+</li>
+</ul>
+<!-- [D] 검색어 저장 꺼진 경우 atcmp_fixer에 type_off 추가 -->
+<!-- [AU] _offMsg 클래스를 추가해주세요. -->
+<div class="kwd_info kwd_off _offMsg" style="display: none;">검색어 저장 기능이 꺼져 있습니다.<br><span class="kwd_dsc">설정이 초기화 된다면 <a href="https://help.naver.com/support/alias/search/word/word_29.naver" class="kwd_help" data-clk="sly.help" target="_blank">도움말</a>을 확인해주세요.</span></div>
+<!-- [D] 검색어 내역 없는 경우 atcmp_fixer에 type_off 추가 -->
+<!-- [AU] _recentNone 클래스를 추가해주세요. -->
+<div class="kwd_info kwd_none _recentNone" style="display: none;">최근 검색어 내역이 없습니다.<br><span class="kwd_dsc">설정이 초기화 된다면 <a href="https://help.naver.com/support/alias/search/word/word_29.naver" class="kwd_help" data-clk="sly.help" target="_blank">도움말</a>을 확인해주세요.</span></div>
+</div>
+<div class="atcmp_footer">
+<span class="side_opt_area">
+<span class="opt_item"><a href="https://help.naver.com/support/service/main.help?serviceNo=605&amp;categoryNo=1991" data-clk="sly.help" target="_blank">도움말</a></span>
+</span>
+<span class="rside_opt_area">
+<span class="opt_item">
+<!-- [AU] _keywordOnOff 클래스를 추가해주세요. -->
+<a href="#" class="close _keywordOnOff">자동저장 끄기</a>
+</span>
+</span>
+</div>
+</div>
+<!-- 자동완성 -->
+<!-- [AU] _atcmp_layer 클래스를 추가해주세요. -->
+<div class="atcmp_fixer _atcmp_layer" style="display:none;">
+<!-- [AU] _words 클래스를 추가해주세요. -->
+<div class="atcmp_container _words">
+<!-- 정답형 템플릿 : 로또당첨번호 -->
+<!-- [AU] _answer 클래스를 추가해주세요. -->
+<!-- [AU] data-template-type="answer_3" data-code="@code@" data-keyword="@1@" attribute를 추가해주세요. -->
+<div class="atcmp_correct type_lotto _answer" data-template-type="answer_3" data-code="@code@" data-keyword="@1@">
+<a href="#" class="link_item">
+<span class="common_ico_kwd"><i class="imsc ico_search"></i></span>
+<div class="dsc_area">
+<span class="tit">@5@회차 당첨번호</span>
+<span class="dsc">
+<span class="item">추첨 @13@.</span><span class="item">지급기한 1년</span>
+</span>
+</div>
+<span class="etc_area">
+<span class="etc lotto">
+<em class="n@6@">@6@</em><em class="n@7@">@7@</em><em class="n@8@">@8@</em><em class="n@9@">@9@</em><em class="n@10@">@10@</em><em class="n@11@">@11@</em><em class="imsc_bf bonus n@12@">@12@</em>
+</span>
+</span>
+</a>
+</div>
+<!-- 정답형 템플릿 : 환율 -->
+<!-- [AU] _answer 클래스를 추가해주세요. -->
+<!-- [AU] data-template-type="answer_9" data-code="@code@" data-keyword="@1@" attribute를 추가해주세요. -->
+<div class="atcmp_correct type_exchange _answer" data-template-type="answer_9" data-code="@code@" data-keyword="@1@">
+<!-- [D] 상승 up, 하락 down 추가 -->
+<a href="#" class="link_item @11@">
+<!-- [D] 국가별 class 가나다순
+ZAR 남아프리카 공화국
+NPR 네팔
+NOK 노르웨이
+NZD 뉴질랜드
+TWD 대만
+DKK 덴마크
+RUB 러시아
+MOP 마카오
+MYR 말레이시아
+MXN 멕시코
+MNT 몽골
+USD 미국
+BHD 바레인
+BDT 방글라데시
+VND 베트남
+BRL 브라질
+SAR 사우디아라비아
+SEK 스웨덴
+CHF 스위스
+SGD 싱가포르
+AED 아랍에미리트
+GBP 영국
+EUR 유럽연합
+ILS 이스라엘
+EGP 이집트
+INR 인도
+IDR 인도네시아
+JPY 일본
+CNY 중국
+CZK 체코
+CLP 칠레
+KZT 카자흐스탄
+QAR 카타르
+CAD 캐나다
+KWD 쿠웨이트
+THB 태국
+TRY 터키
+PKR 파키스탄
+PLN 폴란드
+PHP 필리핀
+HUF 헝가리
+AUD 호주
+HKD 홍콩
+-->
+<span class="common_ico_kwd"><i class="imsc ico @12@">@14@</i></span>
+<div class="dsc_area">
+<span class="tit">@txt@<span class="sub">@currency@</span></span>
+<span class="dsc">
+<span class="item"><i class="imsc ico_arr"></i>@8@(@9@%)</span>
+</span>
+</div>
+<span class="etc_area">
+<span class="etc"><em class="num">@6@</em>원</span>
+</span>
+</a>
+</div>
+<!-- 정답형 템플릿 : 날씨(국내11, 해외12) -->
+<!-- [AU] _answer 클래스를 추가해주세요. -->
+<!-- [AU] data-template-type="answer_11" data-code="@code@" data-keyword="@1@" attribute를 추가해주세요. -->
+<div class="atcmp_correct type_weather _answer" data-template-type="answer_11" data-code="@code@" data-keyword="@1@">
+<!-- [D] 상승 up, 하락 down 추가 -->
+<a href="#" class="link_item @12@">
+<span class="common_ico_kwd"><i class="imsc ico_search"></i></span>
+<div class="dsc_area">
+<span class="tit">@txt@</span>
+<span class="dsc">
+<span class="item">@7@, @message@</span>
+</span>
+</div>
+<span class="etc_area">
+<span class="etc">
+<!-- [D] 날씨별 class
+ico1 맑음(낮)
+ico2 맑음(밤)
+ico3 구름조금(낮)
+ico4 구름조금(밤)
+ico5 구름많음(낮)
+ico6 구름많음(밤)
+ico7 흐림
+ico8 약한비
+ico9 비
+ico10 강한비
+ico11 약한눈
+ico12 눈
+ico13 강한눈
+ico14 진눈깨비
+ico15 소나기
+ico16 안개
+ico17 소낙눈
+ico18 번개뇌우
+ico19 우박
+ico20 황사
+ico21 비또는눈
+ico22 가끔비
+ico23 가끔눈
+ico24 가끔비또는눈
+ico25 흐린후갬
+ico26 뇌우후갬
+ico27 비후갬
+ico28 눈후갬
+ico29 흐려져비
+ico30 흐려져눈
+-->
+<span class="ico_weather"><i class="imsc ico ico@iconNo@">@7@</i></span>
+<em class="degree">@8@<sup class="celsius">°</sup></em>
+</span>
+</span>
+</a>
+</div>
+<!-- 정답형 템플릿 : 사이트 바로가기 -->
+<!-- [AU] _answer 클래스를 추가해주세요. -->
+<!-- [AU] data-template-type="answer_17" data-code="@code@" data-keyword="@1@" attribute를 추가해주세요. -->
+<div class="atcmp_correct type_site _answer" data-template-type="answer_17" data-code="@code@" data-keyword="@1@">
+<a href="@5@" class="link_item" target="_blank">
+<span class="common_ico_kwd"><i class="imsc ico_url"></i></span>
+<div class="dsc_area">
+<span class="tit">@txt@</span>
+<span class="dsc">
+<span class="item">@5@</span>
+</span>
+</div>
+<span class="etc_area">
+<span class="etc">바로가기</span>
+</span>
+</a>
+</div>
+<!-- [AU] _kwd_list 클래스를 추가해주세요. -->
+<ul class="kwd_lst _kwd_list">
+<!-- [AU] 자동완성 검색어 템플릿 -->
+<!-- [AU] _item 클래스를 추가해주세요. -->
+<!-- [AU] data-rank="@rank@" data-template-type="suggestion" data-keyword="@in_txt@" attribute를 추가해주세요. -->
+<li class="item _item" data-rank="@rank@" data-template-type="suggestion" data-keyword="@in_txt@">
+<a href="#" class="kwd">
+<span class="fix"><span class="common_ico_kwd"><i class="imsc ico_search"></i></span>@txt@</span>
+</a>
+<span class="etc">
+<a href="#" role="button" class="bt_item _add" aria-pressed="false"><i class="imsc ico_insert">추가</i></a>
+</span>
+</li>
+<!-- [AU] 최근검색어 템플릿 -->
+<!-- [AU] _item 클래스를 추가해주세요. -->
+<!-- [AU] data-rank="@rank@" data-template-type="history" data-keyword="@in_txt@" attribute를 추가해주세요. -->
+<li class="item has_correct _item" data-rank="@rank@" data-template-type="history" data-keyword="@in_txt@">
+<a href="#" class="kwd">
+<span class="fix"><span class="common_ico_kwd"><i class="imsc ico_search"></i></span>@txt@</span>
+</a>
+<span class="etc">
+<!-- 최근검색어 있으면 날짜 표시 -->
+<em class="date">@date@.</em>
+<a href="#" role="button" class="bt_item _add" aria-pressed="false"><i class="imsc ico_insert">추가</i></a>
+</span>
+</li>
+</ul>
+<!-- [AU] 문맥검색 템플릿 -->
+<!-- [AU] _item 클래스를 추가해주세요. -->
+<!-- [AU] data-rank="@rank@" data-template-type="intend" data-keyword="@transQuery@" attribute를 추가해주세요. -->
+<li class="item has_correct _item" data-rank="@rank@" data-intend-rank="@intendRank@" data-template-type="intend" data-keyword="@transQuery@">
+<a href="#" class="kwd">
+<span class="fix"><span class="common_ico_kwd"><i class="imsc ico_search"></i></span>@query@ <span class="context">@intend@</span></span>
+</a>
+<span class="etc">
+<a href="#" role="button" class="bt_item _add" aria-pressed="false"><i class="imsc ico_insert">추가</i></a>
+</span>
+</li>
+<!-- [D] 선거안내문구 -->
+<!-- [AU] _alert 클래스를 추가해주세요. -->
+<div class="atcmp_alert _alert">
+<div class="dsc_election">
+<i class="imsc ico_election"></i>
+<p class="dsc">선거 후보자에 대해 자동완성을 제공하지 않습니다.
+<span class="dsc_inner">기간 : 4월 2일 0시 ~ 4월 15일 18시까지</span>
+<a href="#" class="link">자세히보기</a>
+</p>
+</div>
+</div>
+<!-- [AU] _plus 클래스를 추가해주세요. -->
+<div class="atcmp_plus _plus">
+<div class="dsc_plus">
+<a href="https://help.naver.com/support/contents/contents.nhn?serviceNo=606&categoryNo=16658" class="link_dsc" data-clk="sug.cxhelp" target="_blank">관심사를 반영한 컨텍스트 자동완성<i class="imsc ico_help">도움말</i></a>
+</div>
+<div class="switch">
+<!-- [D] 선택시 aria-pressed="ture/false" -->
+<!-- [AU] _plus_btn 클래스를 추가해주세요. -->
+<a role="button" href="#" class="bt_switch active _plus_btn" aria-pressed="false"><i class="imsc ico_option">컨텍스트 자동완성</i></a>
+</div>
+<!-- [AU] _plus_layer 클래스를 추가해주세요. -->
+<div class="layer_plus _plus_layer">
+<strong class="tit">컨텍스트 자동완성</strong>
+<!-- [AU] _plus_layer_isloggedin 클래스를 추가해주세요. -->
+<!-- [AU] style="display:none" 추가해주세요. -->
+<div class="_plus_layer_isloggedin" style="display:none">
+<p class="dsc">ON/OFF 설정은<br>해당기기(브라우저)에 저장됩니다.</p>
+<div class="btn_area">
+<a href="https://help.naver.com/support/contents/contents.help?serviceNo=606&categoryNo=16659" class="btn btn_view" data-clk="sug.cxlink" target="_blank">자세히</a>
+</div>
+</div>
+<!-- [AU] _plus_layer_isnotloggedin 클래스를 추가해주세요. -->
+<!-- [AU] style="display:none" 추가해주세요. -->
+<div class="_plus_layer_isnotloggedin" style="display:none">
+<p class="dsc"><em class="txt">동일한 시간대/연령/남녀별</em> 사용자 그룹의<br>관심사에 맞춰 자동완성을 제공합니다.</p>
+<div class="btn_area">
+<a href="https://nid.naver.com/nidlogin.login" class="btn btn_login" data-clk="sug.cxlogin">로그인</a>
+<a href="https://help.naver.com/support/alias/search/word/word_16.naver" class="btn btn_view" data-clk="sug.cxlink" target="_blank">자세히</a>
+</div>
+</div>
+<!-- [AU] _plus_layer_close 클래스를 추가해주세요. -->
+<a href="#" role="button" class="btn_close _plus_layer_close"><i class="imsc ico_close">컨텍스트 자동완성 레이어 닫기</i></a>
+</div>
+</div>
+</div>
+<div class="atcmp_footer">
+<span class="side_opt_area">
+<span class="opt_item"><a href="https://help.naver.com/support/service/main.help?serviceNo=605&categoryNo=1987" data-clk="sug.help" target="_blank">도움말</a></span>
+<span class="opt_item"><a href="https://help.naver.com/support/contents/contents.help?serviceNo=605&categoryNo=18215" class="report" data-clk="sug.report" target="_blank">신고</a></span>
+</span>
+<span class="rside_opt_area">
+<span class="opt_item">
+<!-- [AU] _suggestOnOff 클래스를 추가해주세요. -->
+<a href="#" class="close _suggestOnOff">자동완성 끄기</a>
+</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!--EMPTY-->
+<div id="gnb">
+<div id="NM_FAVORITE" class="gnb_inner">
+<div class="group_nav">
+<ul class="list_nav type_fix">
+<li class="nav_item">
+<a href="https://mail.naver.com/" class="nav" data-clk="svc.mail"><i class="ico_mail"></i>메일</a>
+</li>
+<li class="nav_item"><a href="https://section.cafe.naver.com/" class="nav" data-clk="svc.cafe">카페</a></li>
+<li class="nav_item"><a href="https://section.blog.naver.com/" class="nav" data-clk="svc.blog">블로그</a></li>
+<li class="nav_item"><a href="https://kin.naver.com/" class="nav" data-clk="svc.kin">지식iN</a></li>
+<li class="nav_item"><a href="https://shopping.naver.com/" class="nav" data-clk="svc.shopping">쇼핑</a></li>
+<li class="nav_item"><a href="https://order.pay.naver.com/home" class="nav" data-clk="svc.pay">Pay</a></li>
+<li class="nav_item">
+<a href="https://tv.naver.com/" class="nav" data-clk="svc.tvcast"><i class="ico_tv"></i>TV</a>
+</li>
+</ul>
+<ul
+class="list_nav NM_FAVORITE_LIST"
+>
+<li class="nav_item"><a href="https://dict.naver.com/" class="nav" data-clk="svc.dic">사전</a></li>
+<li class="nav_item"><a href="https://news.naver.com/" class="nav" data-clk="svc.news">뉴스</a></li>
+<li class="nav_item"><a href="https://finance.naver.com/" class="nav" data-clk="svc.stock">증권</a></li>
+<li class="nav_item"><a href="https://land.naver.com/" class="nav" data-clk="svc.land">부동산</a></li>
+<li class="nav_item"><a href="https://map.naver.com/" class="nav" data-clk="svc.map">지도</a></li>
+<li class="nav_item"><a href="https://movie.naver.com/" class="nav" data-clk="svc.movie">영화</a></li>
+<li class="nav_item"><a href="https://vibe.naver.com/" class="nav" data-clk="svc.vibe">VIBE</a>
+<li class="nav_item"><a href="https://book.naver.com/" class="nav" data-clk="svc.book">책</a></li>
+<li class="nav_item"><a href="https://comic.naver.com/" class="nav" data-clk="svc.webtoon">웹툰</a></li>
+
+</ul>
+<ul class="list_nav type_empty" style="display: none;"></ul>
+<a href="#" role="button" class="btn_more" data-clk="svc.more">더보기</a>
+<div class="ly_btn_area">
+<a href="more.html" class="btn NM_FAVORITE_ALL" data-clk="map.svcmore">서비스 전체보기</a>
+<a href="#" role="button" class="btn btn_set" data-clk="map.edit">메뉴설정</a>
+<a href="#" role="button" class="btn btn_reset" data-clk="edt.reset">초기화</a>
+<a href="#" role="button" class="btn btn_save" data-clk="edt.save">저장</a>
+</div>
+</div>
+<div id="rtk" class="group_keyword" data-clk-prefix="lve">
+<div id="NM_RTK_ROLLING_WRAP" class="keyword_area" data-clk="open"></div>
+</div>
+<div id="NM_RTK_VIEW" data-clk-prefix="lve"></div>
+
+</div>
+<div class="ly_service">
+<div class="group_service NM_FAVORITE_ALL_LY"></div>
+<div class="group_service NM_FAVORITE_EDIT_LY" style="display: none;"></div>
+</div>
+</div>
+</div>
+ <div id="container" role="main"> <div style="position:relative;width:1130px;margin:0 auto;z-index:11"> <div id="da_top"></div> <div id="da_expwide"></div> </div> <div id="NM_INT_LEFT" class="column_left">  <div id="veta_top"> <iframe id="da_iframe_time" name="da_iframe_time" data-iframe-src="https://siape.veta.naver.com/fxshow?su=SU10599&amp;nrefreshx=0" data-veta-preview="main_time" title="광고" width="750" height="135" marginheight="0" marginwidth="0" scrolling="no" frameborder="0"> </iframe> <span class="veta_bd_t"></span> <span class="veta_bd_b"></span> <span class="veta_bd_l"></span> <span class="veta_bd_r"></span> </div> <div id="newsstand" class="sc_newscast"> <h2 class="blind">뉴스스탠드</h2> <div id="NM_NEWSSTAND_HEADER" class="group_issue" data-clk-prefix="ncy"> <div class="issue_area"> <a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y" class="link_media" data-clk="newsflash">연합뉴스</a> <div id="yna_rolling" class="list_issue"> <div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012098757" class="issue" data-clk="quickarticle">정경심 1심서 징역 4년·벌금 5억원…입시비리 유죄</a></div>
+<div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012098959" class="issue" data-clk="quickarticle">정부 "세계 최초로 백신접종할 이유없어…한두달 관찰기회 다행"</a></div>
+<div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012098639" class="issue" data-clk="quickarticle">수도권 5인이상 집합금지 첫날…식당, 단체손님 '테이블 쪼개기'</a></div>
+<div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012098939" class="issue" data-clk="quickarticle">의협 "현재 상황 의료계 감당하기 역부족"…국가의료 위기선언</a></div>
+<div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012098623" class="issue" data-clk="quickarticle">안철수 "대권 포기한 것…국민의힘 입당도 논의해볼 수 있다"</a></div>
+<div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012099065" class="issue" data-clk="quickarticle">윤희숙, 野 공관위 합류 않기로…서울시장 출마 관측</a></div>
+<div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012099013" class="issue" data-clk="quickarticle">檢, '인턴확인서 허위발급' 혐의 최강욱에 징역 1년 구형</a></div>
+<div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012098603" class="issue" data-clk="quickarticle">헌재 "문화계 '블랙리스트'는 심각한 표현의 자유 제한"</a></div>
+<div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012098728" class="issue" data-clk="quickarticle">차관급 10명 인사…교육 정종철, 외교2 최종문, 문체2 김정배</a></div>
+<div><a href="http://news.naver.com/main/list.nhn?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0012098943" class="issue" data-clk="quickarticle">변창흠 "여성, 화장 때문에 모르는 사람과 아침식사 꺼려"</a></div> </div> </div> <div class="direct_area"> <a href="http://news.naver.com/" class="link_news" data-clk="newshome">네이버뉴스</a>
+<a href="http://entertain.naver.com/home" class="link_direct" data-clk="entertainment">연예</a>
+<a href="http://sports.news.naver.com/" class="link_direct" data-clk="sports">스포츠</a>
+<a href="http://news.naver.com/main/main.nhn?mode=LSD&mid=shm&sid1=101" class="link_direct" data-clk="economy">경제</a> </div> </div>        <div id="NM_NEWSSTAND_TITLE" class="group_title" data-clk-prefix="nsd"> <a href="http://newsstand.naver.com/" class="link_newsstand" data-clk="title" target="_blank">뉴스스탠드</a> <div id="NM_NEWSSTAND_data_buttons" class="sort_area">  <a href="#" role="button" data-type="my" data-clk="my" class="btn_sort">구독한 언론사</a> <a href="#" role="button" data-type="all" data-clk="all" class="btn_sort sort_on">전체언론사</a>  </div> <div id="NM_NEWSSTAND_view_buttons" class="set_area">  <a href="#" role="button" data-type="list" data-clk="articleview" class="btn_set"> <i class="ico_list"><span class="blind">리스트형</span></i></a> <a href="#" role="button" data-type="thumb" data-clk="pressview" class="btn_set set_on"> <i class="ico_tile"><span class="blind">썸네일형</span></i></a>  <a href="http://newsstand.naver.com/config.html" class="btn_set" data-clk="set" target="_blank"> <i class="ico_set"><span class="blind">설정</span></i></a> </div> </div> <div id="NM_NEWSSTAND_VIEW_CONTAINER" style="position:relative"> <div id="NM_NEWSSTAND_DEFAULT_LIST" class="group_news" style="display:none" data-clk-prefix="nsd_all"> <a href="#" role="button" class="pm_btn_prev_l _NM_NEWSSTAND_LIST_prev_btn" data-clk-custom="prev"><i class="ico_btn"><span class="blind">이전</span></i></a> <a href="#" role="button" class="pm_btn_next_l _NM_NEWSSTAND_LIST_next_btn" data-clk-custom="next"><i class="ico_btn"><span class="blind">다음</span></i></a> <div class="list_view"> <div class="option_area"> <div class="list_option_wrap"> <ul class="list_option"> <li class="option_item" data-cateid="ct2"><a href="#" class="option" data-clk="daei">종합/경제</a></li> <li class="option_item" data-cateid="ct3"><a href="#" class="option" data-clk="dtvcom">방송/통신</a></li> <li class="option_item" data-cateid="ct4"><a href="#" class="option" data-clk="dit">IT</a></li> <li class="option_item" data-cateid="ct5"><a href="#" class="option" data-clk="deng">영자지</a></li> <li class="option_item" data-cateid="ct6"><a href="#" class="option" data-clk="dsporent">스포츠/연예</a></li> <li class="option_item" data-cateid="ct7"><a href="#" class="option" data-clk="dmagtec">매거진/전문지</a></li> <li class="option_item" data-cateid="ct8"><a href="#" class="option" data-clk="dloc">지역</a></li> </ul> </div> </div> <div class="_NM_NEWSSTAND_ARTICLE_CONTAINER" data-clk-sub="*a"></div> </div> <div class="ly_popup NM_NEWSSTAND_POPUP NM_NEWSSTAND_invalid" style="display:none" data-clk-sub="*a"> <a href="#" role="button" class="btn_close NM_NEWSSTAND_POPUP_CLOSE"><i class="ico_close"></i><span class="blind">닫기</span></a> <p class="popup_msg">해당 언론사 사정으로 접근이 일시 제한됩니다.</p> <div class="popup_btn"> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CLOSE">확인</a> </div> </div> <div class="ly_popup NM_NEWSSTAND_POPUP NM_NEWSSTAND_undescribe_confirm" style="display:none" data-clk-sub="*a"> <a href="#" role="button" class="btn_close NM_NEWSSTAND_POPUP_CLOSE" data-clk="usclose"><i class="ico_close"></i><span class="blind">닫기</span></a> <p class="popup_msg"><strong class="NM_NEWSSTAND_POPUP_PNAME"></strong>을(를)<br>구독해지 하시겠습니까?</p> <div class="popup_btn"> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CONFIRM" data-clk="usdone">확인</a> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CLOSE" data-clk="uscancel">취소</a> </div> </div> <div class="ly_toast NM_NEWSSTAND_TOAST" style="display:none"> <p class="toast_msg">구독한 언론사에 추가되었습니다.</p> </div> </div>   <div id="NM_NEWSSTAND_DEFAULT_THUMB" class="group_news" style="display:block" data-clk-prefix="nsd_all"> <a href="#" role="button" class="pm_btn_prev_l _NM_UI_PAGE_PREV" data-clk-custom="prev"><i class="ico_btn"><span class="blind">이전</span></i></a> <a href="#" role="button" class="pm_btn_next_l _NM_UI_PAGE_NEXT" data-clk-custom="next"><i class="ico_btn"><span class="blind">다음</span></i></a> <div class="_NM_UI_PAGE_CONTAINER" style="height:100%;overflow:hidden" data-clk-sub="*p">   <div style="width: 750px; float: left;">
+<div class="tile_view">
+<div class="frame_area">
+<i class="line to_right1"></i>
+<i class="line to_right2"></i>
+<i class="line to_right3"></i>
+<i class="line to_bottom1"></i>
+<i class="line to_bottom2"></i>
+<i class="line to_bottom3"></i>
+<i class="line to_bottom4"></i>
+<i class="line to_bottom5"></i>
+</div>
+<div class="thumb_area">
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="018"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/018.png"
+height="20"
+alt="이데일리"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="018"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="018"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=018"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="018"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="032"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/032.png"
+height="20"
+alt="경향신문"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="032"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="032"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=032"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="032"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="052"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/052.png"
+height="20"
+alt="YTN"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="052"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="052"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=052"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="052"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="044"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/044.png"
+height="20"
+alt="코리아헤럴드"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="044"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="044"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=044"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="044"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="076"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/076.png"
+height="20"
+alt="스포츠조선"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="076"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="076"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=076"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="076"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="002"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/002.png"
+height="20"
+alt="프레시안"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="002"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="002"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=002"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="002"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="079"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/079.png"
+height="20"
+alt="노컷뉴스"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="079"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="079"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=079"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="079"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="366"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/366.png"
+height="20"
+alt="조선비즈"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="366"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="366"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=366"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="366"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="008"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/008.png"
+height="20"
+alt="머니투데이"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="008"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="008"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=008"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="008"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="020"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/020.png"
+height="20"
+alt="동아일보"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="020"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="020"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=020"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="020"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="904"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/904.png"
+height="20"
+alt="JTBC"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="904"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="904"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=904"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="904"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="308"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/308.png"
+height="20"
+alt="시사인"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="308"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="308"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=308"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="308"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="022"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/022.png"
+height="20"
+alt="세계일보"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="022"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="022"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=022"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="022"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="047"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/047.png"
+height="20"
+alt="오마이뉴스"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="047"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="047"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=047"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="047"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="314"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/314.png"
+height="20"
+alt="스포츠동아"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="314"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="314"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=314"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="314"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="477"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/477.png"
+height="20"
+alt="스포티비뉴스"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="477"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="477"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=477"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="477"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="296"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/296.png"
+height="20"
+alt="코메디닷컴"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="296"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="296"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=296"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="296"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="906"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/906.png"
+height="20"
+alt="KNN"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="906"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="906"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=906"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="906"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="536"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/536.png"
+height="20"
+alt="더팩트"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="536"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="536"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=536"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="536"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="948"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/948.png"
+height="20"
+alt="한겨레21"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="948"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="948"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=948"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="948"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="923"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/923.png"
+height="20"
+alt="인민망"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="923"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="923"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=923"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="923"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="925"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/925.png"
+height="20"
+alt="일요신문"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="925"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="925"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=925"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="925"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="971"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/971.png"
+height="20"
+alt="일요시사"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="971"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="971"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=971"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="971"
+>기사보기</a
+>
+</div>
+</div>
+<div
+class="thumb_box _NM_NEWSSTAND_THUMB _NM_NEWSSTAND_THUMB_press_valid"
+data-pid="908"
+>
+<a href="#" class="thumb">
+<img
+src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/908.png"
+height="20"
+alt="국방일보"
+class="news_logo"
+/>
+<span class="thumb_dim"></span
+></a>
+<div class="popup_wrap">
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_subscribe_press"
+data-pid="908"
+data-clk="sub"
+>구독</a
+>
+<a
+href="#"
+role="button"
+class="btn_popup _NM_NEWSSTAND_THUMB_unsubscribe_press"
+data-pid="908"
+data-clk="unsub"
+>해지</a
+>
+<a
+href="http://newsstand.naver.com/?list=&pcode=908"
+target="_blank"
+class="btn_popup"
+data-clk="logo"
+data-pid="908"
+>기사보기</a
+>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </div> <div class="ly_popup NM_NEWSSTAND_POPUP NM_NEWSSTAND_invalid" style="display:none"> <a href="#" role="button" class="btn_close NM_NEWSSTAND_POPUP_CLOSE"><i class="ico_close"></i><span class="blind">닫기</span></a> <p class="popup_msg">해당 언론사 사정으로 접근이 일시 제한됩니다.</p> <div class="popup_btn"> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CLOSE">확인</a> </div> </div> <div class="ly_popup NM_NEWSSTAND_POPUP NM_NEWSSTAND_undescribe_confirm" style="display:none" data-clk-sub="*a"> <a href="#" role="button" class="btn_close NM_NEWSSTAND_POPUP_CLOSE" data-clk="usclose"><i class="ico_close"></i><span class="blind">닫기</span></a> <p class="popup_msg"><strong class="NM_NEWSSTAND_POPUP_PNAME"></strong>을(를)<br/>구독해지 하시겠습니까?</p> <div class="popup_btn"> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CONFIRM" data-clk="usdone">확인</a> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CLOSE" data-clk="uscancel">취소</a> </div> </div> <div class="ly_toast NM_NEWSSTAND_TOAST" style="display:none"> <p class="toast_msg">구독한 언론사에 추가되었습니다.</p> </div> </div> <div id="NM_NEWSSTAND_MY_LIST" class="group_news" style="display:none" data-clk-prefix="nsd_myn"> <a href="#" role="button" class="pm_btn_prev_l _NM_NEWSSTAND_LIST_prev_btn" data-clk-custom="prev"><i class="ico_btn"></i><span class="blind">이전</span></a> <a href="#" role="button" class="pm_btn_next_l _NM_NEWSSTAND_LIST_next_btn" data-clk-custom="next"><i class="ico_btn"></i><span class="blind">다음</span><span class="blind">다음</span></a> <div class="list_view"> <div class="option_area"> <div class="list_option_wrap"> <ul class="list_option _NM_NEWSSTAND_MY_presslist"> <!-- nvpaperlist:empty --> </ul> </div> </div> <div class="_NM_NEWSSTAND_ARTICLE_CONTAINER" data-clk-sub="*a">  </div> </div> <div class="ly_popup NM_NEWSSTAND_POPUP NM_NEWSSTAND_invalid" style="display:none"> <a href="#" role="button" class="btn_close NM_NEWSSTAND_POPUP_CLOSE"><i class="ico_close"></i><span class="blind">닫기</span></a> <p class="popup_msg">해당 언론사 사정으로 접근이 일시 제한됩니다.</p> <div class="popup_btn"> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CLOSE">확인</a> </div> </div> <div class="ly_popup NM_NEWSSTAND_POPUP NM_NEWSSTAND_undescribe_confirm" style="display:none" data-clk-sub="*a"> <a href="#" role="button" class="btn_close NM_NEWSSTAND_POPUP_CLOSE" data-clk="usclose"><i class="ico_close"></i><span class="blind">닫기</span></a> <p class="popup_msg"><strong class="NM_NEWSSTAND_POPUP_PNAME"></strong>을(를)<br>구독해지 하시겠습니까?</p> <div class="popup_btn"> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CONFIRM" data-clk="usdone">확인</a> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CLOSE" data-clk="uscancel">취소</a> </div> </div> </div> <div id="NM_NEWSSTAND_MY_THUMB" class="group_news" style="display:none" data-clk-prefix="nsd_myn"> <a href="#" role="button" class="pm_btn_prev_l _NM_UI_PAGE_PREV" data-clk-custom="prev"><i class="ico_btn"><span class="blind">이전</span></i></a> <a href="#" role="button" class="pm_btn_next_l _NM_UI_PAGE_NEXT" data-clk-custom="next"><i class="ico_btn"><span class="blind">다음</span></i></a> <div class="_NM_UI_PAGE_CONTAINER" data-clk-sub="*p"></div> <div class="ly_popup NM_NEWSSTAND_POPUP NM_NEWSSTAND_invalid" style="display:none"> <a href="#" role="button" class="btn_close NM_NEWSSTAND_POPUP_CLOSE"><i class="ico_close"></i><span class="blind">닫기</span></a> <p class="popup_msg">해당 언론사 사정으로 접근이 일시 제한됩니다.</p> <div class="popup_btn"> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CLOSE">확인</a> </div> </div> <div class="ly_popup NM_NEWSSTAND_POPUP NM_NEWSSTAND_undescribe_confirm" style="display:none" data-clk-sub="*a"> <a href="#" role="button" class="btn_close NM_NEWSSTAND_POPUP_CLOSE" data-clk="usclose"><i class="ico_close"></i><span class="blind">닫기</span></a> <p class="popup_msg"><strong class="NM_NEWSSTAND_POPUP_PNAME"></strong>을(를)<br>구독해지 하시겠습니까?</p> <div class="popup_btn"> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CONFIRM" data-clk="usdone">확인</a> <a href="#" role="button" class="btn_confirm NM_NEWSSTAND_POPUP_CLOSE" data-clk="uscancel">취소</a> </div> </div> </div> <div id="NM_NEWSSTAND_MY_EMPTY" class="group_news" style="display:none"> <div class="error_view"> <div class="error_area"> <strong class="error_msg">구독한 언론사가 없습니다.</strong> <p class="dsc_msg">언론사 구독 설정에서 관심있는 언론사를 구독하시면<br>언론사가 직접 편집한 뉴스들을 네이버 홈에서 바로 보실 수 있습니다.</p> <a href="http://newsstand.naver.com/config.html" class="link_redirect" target="_blank">언론사 구독 설정하기</a> </div> </div> </div> </div> </div> 
+<div id="NM_MID_BANNER" class="pm_ban_band">
+<a href="https://event.playblackdesert.com/Global_Event/Update_Nova#utm_source=NAVER&amp;utm_medium=Naver_PC_beltDA&amp;utm_campaign=NOVA&amp;utm_content=kr" class="band_info" data-clk="neb.image"
+data-ui-cookie-exp-days="1"
+data-ui-cookie-key="MID_BANNER"
+data-ui-cookie-value="5fe02f9c36a57257d2fd8a3e">
+<img src="https://s.pstatic.net/static/www/mobile/edit/2020/1221/mobile_141428423957.jpg" width="750" height="72" alt="이 세상을 뒤집을 새로운 별 노바 업데이트 기념 이벤트 진행중 검은사막 모바일">
+<span class="ban_bd"></span>
+</a>
+<a href="#" class="btn_close" data-clk="neb.imagecls"
+data-ui-cookie-exp-days="6"
+data-ui-cookie-key="MID_BANNER"
+data-ui-cookie-value="5fe02f9c36a57257d2fd8a3e"
+data-ui-hide-target="#NM_MID_BANNER">
+<i class="ico_close"></i>
+<span class="blind">닫기</span>
+</a>
+</div>
+ <div id="NM_THEMECAST_CONTENTS_CONTAINER"> <div id="themecast" class="sc_themecast id_show" data-fixed="SHOW">
+	<h2 class="blind">주제별 캐스트</h2>
+	<div class="theme_head">
+		<div class="group_title">
+	<div class="title_area">
+		<strong class="title">오늘 읽을만한 글</strong><span class="dsc">주제별로 분류된 다양한 글 모음</span>
+	</div>
+	<div class="info_area">
+		
+			<span class="info"><strong class="new">1,817</strong> 개의 글</span>
+		
+		<a id="NM_THEME_EDIT_SET" href="#" role="button" class="btn_set" data-clk="tca.like">관심주제 설정</a>
+	</div>
+</div>
+<div class="theme_fix_wrap">
+	<div id="NM_THEME_CATE_GROUPS" class="group_category" data-demo-key="default">
+		<div class="main_category">
+			<a href="#" role="button" class="pm_btn_prev NM_THEME_PREV" data-clk="tct.prev" style="display: none;">
+				<i class="ico_btn"><span class="blind">이전</span></i>
+			</a>
+			<a href="#" role="button" class="pm_btn_next NM_THEME_NEXT" data-clk="tct.next" style="display: none;">
+				<i class="ico_btn"><span class="blind">다음</span></i>
+			</a>
+			<div id="NM_THEME_CATE_FLICK" class="_NM_UI_PAGE_CONTAINER" style="height: 49px; overflow: hidden;">
+				
+					<div style="width: 750px;">
+						<ul class="list_category" role="tablist">
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_enter"
+									   aria-selected="false"
+									   data-clk="tct.tvc" data-panel-code="ENTER">엔터</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_sports"
+									   aria-selected="false"
+									   data-clk="tct.spo" data-panel-code="SPORTS">스포츠</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_cargame"
+									   aria-selected="false"
+									   data-clk="tct.aut" data-panel-code="CARGAME">자동차</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_bboom"
+									   aria-selected="false"
+									   data-clk="tct.web" data-panel-code="BBOOM">웹툰</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_finance"
+									   aria-selected="false"
+									   data-clk="tct.fin" data-panel-code="FINANCE">경제M</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_living"
+									   aria-selected="false"
+									   data-clk="tct.fod" data-panel-code="LIVING">푸드</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_gameapp"
+									   aria-selected="false"
+									   data-clk="tct.gam" data-panel-code="GAMEAPP">게임</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_movie"
+									   aria-selected="false"
+									   data-clk="tct.mov" data-panel-code="MOVIE">영화</a>
+								</li>
+							
+						</ul>
+					</div>
+				
+					<div style="width: 750px;">
+						<ul class="list_category" role="tablist">
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_job"
+									   aria-selected="false"
+									   data-clk="tct.job" data-panel-code="JOB">JOB&amp;</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_ittech"
+									   aria-selected="false"
+									   data-clk="tct.tec" data-panel-code="ITTECH">테크</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_travel"
+									   aria-selected="false"
+									   data-clk="tct.tra" data-panel-code="TRAVEL">여행+</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_science"
+									   aria-selected="false"
+									   data-clk="tct.sci" data-panel-code="SCIENCE">과학</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_livinghome"
+									   aria-selected="false"
+									   data-clk="tct.lif" data-panel-code="LIVINGHOME">리빙</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_health"
+									   aria-selected="false"
+									   data-clk="tct.hea" data-panel-code="HEALTH">건강</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_business"
+									   aria-selected="false"
+									   data-clk="tct.bsn" data-panel-code="BUSINESS">비즈니스</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_wedding"
+									   aria-selected="false"
+									   data-clk="tct.wed" data-panel-code="WEDDING">연애·결혼</a>
+								</li>
+							
+						</ul>
+					</div>
+				
+					<div style="width: 750px;">
+						<ul class="list_category" role="tablist">
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_culture"
+									   aria-selected="false"
+									   data-clk="tct.bok" data-panel-code="CULTURE">책문화</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_momkids"
+									   aria-selected="false"
+									   data-clk="tct.mom" data-panel-code="MOMKIDS">부모i</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_law"
+									   aria-selected="false"
+									   data-clk="tct.law" data-panel-code="LAW">법률</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_beauty"
+									   aria-selected="false"
+									   data-clk="tct.bty" data-panel-code="BEAUTY">패션뷰티</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_animal"
+									   aria-selected="false"
+									   data-clk="tct.ani" data-panel-code="ANIMAL">동물공감</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_design"
+									   aria-selected="false"
+									   data-clk="tct.des" data-panel-code="DESIGN">디자인</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_china"
+									   aria-selected="false"
+									   data-clk="tct.chn" data-panel-code="CHINA">중국</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_farm"
+									   aria-selected="false"
+									   data-clk="tct.far" data-panel-code="FARM">FARM</a>
+								</li>
+							
+						</ul>
+					</div>
+				
+					<div style="width: 750px;">
+						<ul class="list_category" role="tablist">
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_show"
+									   aria-selected="true"
+									   data-clk="tct.sow" data-panel-code="SHOW">공연전시</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_with"
+									   aria-selected="false"
+									   data-clk="tct.pub" data-panel-code="WITH">함께N</a>
+								</li>
+							
+								<li class="category_item" role="presentation">
+									
+									
+									<a href="#" role="tab" class="_NM_THEME_CATE tab id_school"
+									   aria-selected="false"
+									   data-clk="tct.scl" data-panel-code="SCHOOL">스쿨잼</a>
+								</li>
+							
+						</ul>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+	</div>
+	<div class="theme_cont" data-panel-code="SHOW">
+		<div class="group_topstory" data-block-id="5fd8a07c6be2f022f3acb5e0" data-block-code="PC-THEME-SHOW-EDIT-AREA" data-block-type="BLOCKS" data-template-code="PC-THEMECAST-EDIT-AREA"
+
+	 data-da="margin-top"
+	 >
+
+	<div class="topstory_inner" data-block-id="5fd8a00ca2295251637073b9" data-block-code="PC-THEME-SHOW-EDIT-AREA-ITEM" data-block-type="A-MATERIAL" data-template-code="IMAGE1"
+
+	 >
+
+	
+		<div class="topstory_view ">
+
+			
+			
+			<a href="https://tv.naver.com/l/63898" class="topstory_thumb"
+			   data-clk="tcc_sow.navertv"
+			   target="_blank">
+				<img src="https://s.pstatic.net/static/www/mobile/edit/2020/1216/mobile_111251694394.png" data-src="https://s.pstatic.net/static/www/mobile/edit/2020/1216/mobile_111251694394.png" alt="2020 인디 크리스마스 선물" width="364" height="180">
+
+				
+					<span class="thumb_dim"></span>
+					<span class="thumb_bd"></span>
+					
+						<i class="ico_live"><span class="blind">LIVE</span></i>
+					
+					<i class="pm_ico_play"><span class="blind">재생</span></i>
+					<span class="theme_runtime">
+						<span class="runtime_bg">재생시간</span>
+						<em class="time">4:00:00</em>
+					</span>
+				
+			</a>
+			<a href="https://tv.naver.com/l/63898" class="topstory_info"
+			   data-clk="tcc_sow.navertvtitle"
+			   target="_blank">
+				
+					<em class="theme_category">12/23(수) 오후 5시</em>
+				
+
+				<strong class="title  ">2020 인디 크리스마스 선물</strong>
+				
+					<p class="desc">2020년 겨울, 가장 힙하고 핫한 크리스마스 선물이 온다! <br>이승환 실리카겔 체리비 밴드화분 DOO 사라플라이 잭킹콩</p>
+				
+
+				
+					<div class="source_area">
+						<span class="source"><span class="source_inner">마포문화재단 마포아트센터 TV</span></span>
+					</div>
+				
+			</a>
+			
+		</div>
+	
+</div>
+<div class="topstory_inner" data-block-id="5fd89d15e3f5842878afa48d" data-block-code="PC-THEME-SHOW-EDIT-AREA-ITEM" data-block-type="MATERIALS" data-template-code="IMAGE3"
+
+	 >
+
+	<div class="list_theme_wrap type_topstory">
+		<ul class="list_theme">
+			
+			<li class="theme_item">
+				
+				
+				<a href="https://patron.naver.com/ntv/c/intro/emkmusical" class="theme_thumb" data-clk="tcc_sow.editsmallimg1" target="_blank">
+					<img src="https://s.pstatic.net/static/www/mobile/edit/2020/1216/cropImg_196x196_50060138158025862.jpeg" data-src="https://s.pstatic.net/static/www/mobile/edit/2020/1216/cropImg_196x196_50060138158025862.jpeg" alt="뮤지컬 &lt;몬테크리스토&gt; 신성록 ver" width="98" height="98">
+
+					
+						<span class="thumb_bd"></span>
+					
+				</a>
+				<a href="https://patron.naver.com/ntv/c/intro/emkmusical" class="theme_info" data-clk="tcc_sow.editsmalltxt1" target="_blank">
+					<em class="theme_category">12/25(금)~26(토)</em>
+					<strong class="title">뮤지컬 <몬테크리스토> 신성록 ver <br>10주년 기념 공연 드레스 리허설 </strong>
+					<div class="source_box">
+						<span class="source"><span class="source_inner">EMK뮤지컬컴퍼니 TV</span></span>
+					</div>
+				</a>
+			</li>
+			
+			<li class="theme_item">
+				
+				
+				<a href="https://patron.naver.com/ntv/c/intro/grarts" class="theme_thumb" data-clk="tcc_sow.editsmallimg2" target="_blank">
+					<img src="https://s.pstatic.net/static/www/mobile/edit/2020/1215/mobile_202306980496.jpg" data-src="https://s.pstatic.net/static/www/mobile/edit/2020/1215/mobile_202306980496.jpg" alt="리처드 용재 오닐 송년음악회 &lt;선물&gt;" width="98" height="98">
+
+					
+						<span class="thumb_bd"></span>
+					
+				</a>
+				<a href="https://patron.naver.com/ntv/c/intro/grarts" class="theme_info" data-clk="tcc_sow.editsmalltxt2" target="_blank">
+					<em class="theme_category">12/27(일) 오후 5시</em>
+					<strong class="title">리처드 용재 오닐 송년음악회 <선물> <br>영화 같은 순간, 마법 같은 음악</strong>
+					<div class="source_box">
+						<span class="source"><span class="source_inner">구로문화재단 TV</span></span>
+					</div>
+				</a>
+			</li>
+			
+			<li class="theme_item">
+				
+				
+				<a href="https://patron.naver.com/ntv/c/intro/rangtv" class="theme_thumb" data-clk="tcc_sow.editsmallimg3" target="_blank">
+					<img src="https://s.pstatic.net/static/www/mobile/edit/2020/1215/mobile_191328921638.jpg" data-src="https://s.pstatic.net/static/www/mobile/edit/2020/1215/mobile_191328921638.jpg" alt="뮤지컬 &lt;시데레우스&gt;" width="98" height="98">
+
+					
+						<span class="thumb_bd"></span>
+					
+				</a>
+				<a href="https://patron.naver.com/ntv/c/intro/rangtv" class="theme_info" data-clk="tcc_sow.editsmalltxt3" target="_blank">
+					<em class="theme_category">12/30(수) 오후 8시</em>
+					<strong class="title">뮤지컬 <시데레우스> <br>박민성, 정욱진, 홍지희</strong>
+					<div class="source_box">
+						<span class="source"><span class="source_inner">랑 TV</span></span>
+					</div>
+				</a>
+			</li>
+			
+		</ul>
+	</div>
+</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-0" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="1"
+	 >
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_046b0e6c-43f7-11eb-aece-51b086eeec01" data-da-position="true">
+					<a href="https://blog.naver.com/hun1056/222172197940" class="theme_thumb" data-clk="tcc_sow.list1cont1" target="_blank">
+						<img src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24620266392364398bhjIz.jpg%22&amp;type&#x3D;nf340_228" data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24620266392364398bhjIz.jpg%22&amp;type&#x3D;nf340_228" alt="A와 B가 같은 색이라고요? 입이 딱 벌어지는 착시의 세계" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/hun1056/222172197940" class="theme_info" data-clk="tcc_sow.list1cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">A와 B가 같은 색이라고요? 입이 딱 벌어지는 착시의 세계</strong>
+						<p class="desc">블로그에 글을 쓸 때는 여러 가지 이유로 하게 됩니다만 개인적으로 발행한 글에 대한 방문자들의 반응을 기대하며 글을 작성하는 경우도 있습니다.​이번 글이 바로 그런 케이스라고 할 수 있습니다. 해외 온라인 미디어 보어드판다에 올라온 &#x27;당신이 본 최고의 착시현상은 무엇입니까?&#x27;라는 제목의 글을 보며 혼자서 수많은 욕을 했습니다. 왜 하필 이 글을 클릭해서..</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">정면돌파</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_02624617-43f7-11eb-aece-77dd19f4220e" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30286458&amp;memberNo&#x3D;43966789" class="theme_thumb" data-clk="tcc_sow.list1cont2" target="_blank">
+						<img src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24633503869773803aY0EM.jpg%22&amp;type&#x3D;nf340_228" data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24633503869773803aY0EM.jpg%22&amp;type&#x3D;nf340_228" alt="싸구려 파란색 볼펜으로 그린 극사실주의 그림" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30286458&amp;memberNo&#x3D;43966789" class="theme_info" data-clk="tcc_sow.list1cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">싸구려 파란색 볼펜으로 그린 극사실주의 그림</strong>
+						<p class="desc">가장 흔하고 값싼 필기도구 중의 하나인 볼펜은 누구나 한 번쯤은 다 사용해보았을 것 같습니다. 학교에 다닐 때 연습장 한 귀퉁이에 볼펜으로 낙서를 해본 적이 있죠. 그러나 이런 볼펜은 그리 특별한 도구가 아니기에 예술가들의 선택은 받지 못할 것 같습니다. 그러나 위대한 예술가에게는 이 값싼 볼펜마저 훌륭한 무기가 될 수 있습니다. 그리고 이를 잘 보여주고 </p>
+						<div class="source_box">
+							<span class="date">어제</span>
+							<span class="source"><span class="source_inner">레드프라이데이</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_046b0e6b-43f7-11eb-aece-1de464ecf2b6" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30234448&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list1cont3" target="_blank">
+						<img src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24620026658692335Afwdn.jpg%22&amp;type&#x3D;nf340_228" data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24620026658692335Afwdn.jpg%22&amp;type&#x3D;nf340_228" alt="올 한해 전 세계 미술계 뒤흔든 20대 사건을 모았습니다" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30234448&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list1cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">올 한해 전 세계 미술계 뒤흔든 20대 사건을 모았습니다</strong>
+						<p class="desc">뉴욕에서 발행하는 미술 전문 매체인 &#x27;아트뉴스&#x27;가 2020년을 규정하는 미술계 20대 사건을 선정, 발표했습니다.올해는 한국뿐 아니라 세계 각 국이 &#x27;코로나19&#x27;로 심각한 타격을 받았지요. 그 여파는 지금도 진행형이고요. 어느 해보다 길게 느껴졌던 올 한해 어떤 뉴스가 순위권에 이름을 올렸을까요. 그 결과를 두 번에 걸쳐 소개합니다. 20위부터 차례로 살펴</p>
+						<div class="source_box">
+							<span class="date">어제</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_02624616-43f7-11eb-aece-6b60e3d6c884" data-da-position="true">
+					<a href="https://blog.naver.com/coolsaem/222176520350" class="theme_thumb" data-clk="tcc_sow.list1cont4" target="_blank">
+						<img src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24620526649447927SIZ1a.jpg%22&amp;type&#x3D;nf340_228" data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24620526649447927SIZ1a.jpg%22&amp;type&#x3D;nf340_228" alt="하나의 작업으로 두개의 작품을 만든다…그림자 아트" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/coolsaem/222176520350" class="theme_info" data-clk="tcc_sow.list1cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">하나의 작업으로 두개의 작품을 만든다…그림자 아트</strong>
+						<p class="desc">SHADOWS 포즈를 위한 여인의 그림자가 보입니다. 그런데 주변을 아무리 둘러보아도 사람은 없습니다. 화분과 이상한 모양의 철 조각들이 있을 뿐입니다. 그림자는 어디서 나타난 걸까요?그리스 아티스트 Teodosio Sectio Aurea의 그림자 아트입니다. 그는 하나의 작업으로 두 개의 작품을 만듭니다. 조각품을 완성한 후 빛을 비추면 전혀 다른 실루엣</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">생각전구</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-1" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="1"
+	 >
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_ec35f7bd-1cda-11eb-bf1e-e3a3de3d2c41" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30274081&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list2cont1" target="_blank">
+						<img src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1224%2Fupload_24703893299147942LCycY.jpg%22&amp;type&#x3D;nf340_228" data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1224%2Fupload_24703893299147942LCycY.jpg%22&amp;type&#x3D;nf340_228" alt="업혀 있는 사람 위에 업혀 있는 사람…대체 왜 그런 걸까?" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30274081&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list2cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">업혀 있는 사람 위에 업혀 있는 사람…대체 왜 그런 걸까?</strong>
+						<p class="desc">올해 초부터 이어진 코로나19로 인해 전 세계적으로 많은 사람들이 &#x27;코로나 블루&#x27;를 앓거나 느끼는 것으로 나타났다. &#x27;코로나 블루&#x27;는 코로나19 장기화로 일상에 큰 변화가 닥치면서 생긴 우울감이나 무기력증을 뜻한다.&#x27;코로나 블루&#x27;라고 일컬어지는, 우리가 지금 느끼는 우울감, 불안함이 스스로 납득이 가고 이해가 되지 않을 수도 있다. 하지만 코로나 시대 이전</p>
+						<div class="source_box">
+							<span class="date">2일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_983d55b6-4277-11eb-a953-d74319dda965" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30262884&amp;memberNo&#x3D;37451778&amp;searchKeyword&#x3D;%EC%86%A1%EC%A7%80%EC%9D%B8&amp;searchRank&#x3D;4" class="theme_thumb" data-clk="tcc_sow.list2cont2" target="_blank">
+						<img src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24585961761482957dfU3Z.jpg%22&amp;type&#x3D;nf340_228" data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24585961761482957dfU3Z.jpg%22&amp;type&#x3D;nf340_228" alt="&#x27;팬텀싱어 올스타전&#x27; 시즌 1·2·3 결승 9팀 출연" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30262884&amp;memberNo&#x3D;37451778&amp;searchKeyword&#x3D;%EC%86%A1%EC%A7%80%EC%9D%B8&amp;searchRank&#x3D;4" class="theme_info" data-clk="tcc_sow.list2cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">'팬텀싱어 올스타전' 시즌 1·2·3 결승 9팀 출연</strong>
+						<p class="desc">지난 7월 시즌3의 마지막을 화려하게 장식하며 국내 최고의 크로스오버 장르 음악 프로그램으로 자리잡은 &lt;팬텀싱어&gt;가 역대급 프로젝트로 돌아온다. &lt;팬텀싱어&gt; 시즌 1·2·3 결승 무대에 진출한 9팀의 전 멤버가 출연하는 &lt;팬텀싱어 올스타전&gt;이 오는 2021년 1월 방영된다. 참가팀은 시즌 1의 &#x27;포르</p>
+						<div class="source_box">
+							<span class="date">4일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_ec35f7be-1cda-11eb-bf1e-4bb3740ce03f" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30283782&amp;memberNo&#x3D;29949587" class="theme_thumb" data-clk="tcc_sow.list2cont3" target="_blank">
+						<img src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1224%2Fupload_247038876470221139jXm7.jpg%22&amp;type&#x3D;nf340_228" data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1224%2Fupload_247038876470221139jXm7.jpg%22&amp;type&#x3D;nf340_228" alt="거친 형사로 변신한 김선호, &#x27;미소&#x27; 싹 사라졌다" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30283782&amp;memberNo&#x3D;29949587" class="theme_info" data-clk="tcc_sow.list2cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">거친 형사로 변신한 김선호, '미소' 싹 사라졌다</strong>
+						<p class="desc">[인사이트] 디지털뉴스팀 &#x3D; 김선호가 스윗하고 다정한 캐릭터를 벗고 거친 형사로 이미지 변신을 시도했다. 21일 공연제작사 파크컴퍼니는 연극 &#x27;얼음&#x27;의 메인 포스터 사진을 공개했다. 날 선 시선으로 카메라를 응시하는 배우 김선호의 포스가 단연 눈길을 끌었다. 연극 &#x27;얼음&#x27;은 살인사건 용의자로 잡힌 열여덟 살 소년과 그를 범인으로 만들어야 하는 두 형사의 이</p>
+						<div class="source_box">
+							<span class="date">어제</span>
+							<span class="source"><span class="source_inner">인사이트</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_90014473-43f6-11eb-a2b1-f7a3846bc00c" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30258629&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list2cont4" target="_blank">
+						<img src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24531124856941926ZTV0T.jpg%22&amp;type&#x3D;nf340_228" data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24531124856941926ZTV0T.jpg%22&amp;type&#x3D;nf340_228" alt="이번 연말은 넷플릭스와 함께! 뮤지컬 영화, 무엇이 좋을까?" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30258629&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list2cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">이번 연말은 넷플릭스와 함께! 뮤지컬 영화, 무엇이 좋을까?</strong>
+						<p class="desc">코 앞으로 다가온 크리스마스, 하지만 우리가 마주한 연말 풍경은 예년과 사뭇 다르다. 코로나19 확산세가 꺾이지 않고 있기 때문이다. 현재 정부는 소규모의 사적 모임 금지를 강력하게 권고했으며 서울은 오후 9시 이후 상점, 영화관, pc방 및 공공시설 운영을 전면 중단했다. 그뿐만 아니라 연중 최대 성수기인 연말연시를 맞이해 돌아온 대부분의 뮤지컬 작품들은</p>
+						<div class="source_box">
+							<span class="date">5일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-2" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="2"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_53787cbc-2011-11eb-9631-a17666597664" data-da-position="true">
+					<a href="https://blog.naver.com/allthat_art/222180860336" class="theme_thumb" data-clk="tcc_sow.list3cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24557763902889155fH1lW.jpg%22&amp;type&#x3D;nf340_228" alt="MAYUKA YAMAMOTO 12.10-12.30 서울시 용산구 갤러리에스피" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/allthat_art/222180860336" class="theme_info" data-clk="tcc_sow.list3cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">MAYUKA YAMAMOTO 12.10-12.30 서울시 용산구 갤러리에스피</strong>
+						<p class="desc">전시소개동물 옷을 입은 어린 아이의 그림으로 많은 사랑을 받고 있는 마유카 야마모토(Mayuka Yamamoto, 1964- )의 개인전이 갤러리에스피에서 2년 만에 열립니다. 마유카 야마모토는 1990년 무사시노(Musashino) 미술대학을 졸업하고, 1998년 일본 정부의 해외연구프로그램 장학생에 선발되어 런던으로 이주한 뒤, 그 곳에서 마를린 뒤마(</p>
+						<div class="source_box">
+							<span class="date">2일 전</span>
+							<span class="source"><span class="source_inner">올댓아트</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_90014474-43f6-11eb-a2b1-1d49ca651c3b" data-da-position="true">
+					<a href="https://blog.naver.com/hun1056/222179655793" class="theme_thumb" data-clk="tcc_sow.list3cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24532389949142879wEwhC.jpg%22&amp;type&#x3D;nf340_228" alt="성냥개비로 만들었다? 봐도 봐도 신기한 초상화 설치 미술" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/hun1056/222179655793" class="theme_info" data-clk="tcc_sow.list3cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">성냥개비로 만들었다? 봐도 봐도 신기한 초상화 설치 미술</strong>
+						<p class="desc">현대미술에 있어서 작품의 소재는 무한대라는 것은 모든 분들이 다 알고 계실 겁니다. 오늘 소개하는 작품은 성냥개비라는 지금은 보기 어려운 추억의 소재입니다. &#x27;David Mach&#x27; 그는 1956년생으로서 스코틀랜드 출신의 설치미술 작가입니다. 그는 성냥개비로 어떤 작품을 만들고 있을까요?이렇게 정교한 초상화를 만들고 있습니다. 성냥개비는 빨개야 한다는 편견</p>
+						<div class="source_box">
+							<span class="date">3일 전</span>
+							<span class="source"><span class="source_inner">정면돌파</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_7fc7fa61-43f6-11eb-aece-4bea36885074" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30254398&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list3cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_2445420185244968417R2w.jpg%22&amp;type&#x3D;nf340_228" alt="&quot;줄 서도 못 봐&quot; 해외 공연 만석…&#x27;16살&#x27; 한국인 피아니스트" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30254398&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list3cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">"줄 서도 못 봐" 해외 공연 만석…'16살' 한국인 피아니스트</strong>
+						<p class="desc">※ 본문 중 지난 11월에 열린 임윤찬 피아니스트의 리사이틀은 &#x27;코로나19&#x27; 확산 방지를 위해 소수의 인원만이 참석한 가운데 비공개로 열렸습니다. 모든 입장객은 &#x27;코로나19&#x27; 확산 방지를 위한 방역 수칙을 준수해 명부 작성, 손 소독, 체온 확인, 마스크 필수 착용 후 &#x27;지그재그 2칸씩 띄어 앉기&#x27; 형태로 공연을 관람했습니다.마르타 아르헤리치, 크리스티안 </p>
+						<div class="source_box">
+							<span class="date">5일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_95d2d8ab-43ef-11eb-a2b1-a1a923e033ad" data-da-position="true">
+					<a href="https://blog.naver.com/hun1056/222179616892" class="theme_thumb" data-clk="tcc_sow.list3cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1223%2Fupload_24618370984574136jEI8C.jpg%22&amp;type&#x3D;nf340_228" alt="물감은 1도 없다! 이 그림의 비밀은 립스틱?" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/hun1056/222179616892" class="theme_info" data-clk="tcc_sow.list3cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">물감은 1도 없다! 이 그림의 비밀은 립스틱?</strong>
+						<p class="desc">다소 도발적인 질문입니다. 세상에서 가장 키스를 잘하는 여자는 누구일까요? ^^ 고민하실 필요 없습니다. 그냥 심플하게 키스를 가장 많이 해본 여자가 아마도 잘하지 않을까 생각됩니다. 그렇다면 한번 찾아보고 싶습니다. 세상에서 가장 키스를 잘하는 여자를. 근데 어떻게 찾죠? 방법이 없었는데......​찾아냈습니다. 그녀의 이름은 &#x27;Alexis Fraser&#x27;</p>
+						<div class="source_box">
+							<span class="date">3일 전</span>
+							<span class="source"><span class="source_inner">정면돌파</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_0743a142-403c-11eb-a953-af42ac5e2b63" data-da-position="true">
+					<a href="https://blog.naver.com/k-auction/222173455359" class="theme_thumb" data-clk="tcc_sow.list3cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1218%2Fupload_24209807344729986iMAgl.jpg%22&amp;type&#x3D;nf340_228" alt="다시 찾은 왕좌 &quot;현존하는 가장 비싼 작가&quot;, 제프 쿤스" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/k-auction/222173455359" class="theme_info" data-clk="tcc_sow.list3cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">다시 찾은 왕좌 "현존하는 가장 비싼 작가", 제프 쿤스</strong>
+						<p class="desc">#12월22일프리미엄온라인경매 #해외 #제프쿤스 #jeffkoons ​2019년 5월 15일(미국 현지시간), 미국 뉴욕의 크리스티 경매에서는 생존 작가 작품 중 최고가 기록이 다시 세워졌습니다. 이는 영국 출신의 작가 데이비드 호크니의 작품 &#x27;예술가의 초상&#x27; 이 자리하고 있던 자리를 고작 반년 만에 갈아치운 것인데요. 수수료를 포함해 9천 107만 5천 </p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">케이옥션</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-3" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="2"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_fc325405-4330-11eb-a953-cdf9c09bcb12" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30270534&amp;memberNo&#x3D;339226" class="theme_thumb" data-clk="tcc_sow.list4cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_24470730925825361lA9Jd.jpg%22&amp;type&#x3D;nf340_228" alt="한국 전통 문양으로 타투를 했더니? &quot;예술이네!&quot;" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30270534&amp;memberNo&#x3D;339226" class="theme_info" data-clk="tcc_sow.list4cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">한국 전통 문양으로 타투를 했더니? "예술이네!"</strong>
+						<p class="desc">Tattooist Sion[아이디어 래빗] 한국 기반의 아티스트 &#x27;시온 (Sion Kwak)&#x27;은 전통문화에 영감을 얻은 타투 작품을 제작하는 타투이스트다. 그는 한국 전통 액세서리 &#x27;노리개&#x27;, &#x27;비녀&#x27;, &#x27;부채&#x27;, &#x27;은장도&#x27; 등을 타투로 선보여 사람들의 이목을 집중시키고 있다.&#x27;시온&#x27;의 작품은 전통 장식에서 사용되는 &#x27;한국 매듭&#x27;을 실감 나게</p>
+						<div class="source_box">
+							<span class="date">3일 전</span>
+							<span class="source"><span class="source_inner">아이디어 래빗</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_fc325406-4330-11eb-a953-df883df699c7" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30251973&amp;memberNo&#x3D;522646" class="theme_thumb" data-clk="tcc_sow.list4cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_24452713411650755kEgLK.jpg%22&amp;type&#x3D;nf340_228" alt="전 세계에서 가장 유명하다는 이 &#x27;토끼&#x27;의 정체" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30251973&amp;memberNo&#x3D;522646" class="theme_info" data-clk="tcc_sow.list4cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">전 세계에서 가장 유명하다는 이 '토끼'의 정체</strong>
+						<p class="desc">미술을 읽다, 도서출판 이종이불 속 그림 감상 282 이불 속 그림 감상 282Beatrix Potter Beatrix Potter 1866 - 1943 포터는 1866년 영국 런던의 니어 소리라는 작은 마을에서방적 공장을 경영하는 상류층의 첫째 딸로 태어났어요.그리고 6년 뒤 남동생이 태어났는데둘은 모두 그림 그리기와 동물을 좋아했으며토끼, 쥐, 개구리,</p>
+						<div class="source_box">
+							<span class="date">4일 전</span>
+							<span class="source"><span class="source_inner">EJONG</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_0743a143-403c-11eb-a953-bf542e44d087" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30238908&amp;memberNo&#x3D;34449735" class="theme_thumb" data-clk="tcc_sow.list4cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1218%2Fupload_24209757987347476gBCWx.jpg%22&amp;type&#x3D;nf340_228" alt="황동규 시인으로부터 영감을 얻은 최선호" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30238908&amp;memberNo&#x3D;34449735" class="theme_info" data-clk="tcc_sow.list4cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">황동규 시인으로부터 영감을 얻은 최선호</strong>
+						<p class="desc">최선호는 서울대 미대를 거쳐 뉴욕에서 3년의 유학 후 1990년대에 귀국하면서부터 단순한 화면과 절제된 색채를 바탕으로 한국적 미의식을 담아내고 서정적 색면추상 회화를 선보였습니다. 그의 화면구성은 서구의 미니멀리즘을 연상시키지만 사용하는 색은 동양적입니다. 마치 동양화에서 배접을 하듯 캔버스에 한지를 붙이고 아크릴 물감을 물에 개어 덧바르는 방식으로 동양</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">케이옥션</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_24300f6d-4331-11eb-a953-7d0b2c1e8699" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30265543&amp;memberNo&#x3D;43966789" class="theme_thumb" data-clk="tcc_sow.list4cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1220%2Fupload_24377029103805360J3RuX.jpg%22&amp;type&#x3D;nf340_228" alt="2020년 최고의 이색 웨딩 사진 TOP 10" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30265543&amp;memberNo&#x3D;43966789" class="theme_info" data-clk="tcc_sow.list4cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">2020년 최고의 이색 웨딩 사진 TOP 10</strong>
+						<p class="desc">2020년 뜻하지 않은 코로나19로 인해 우리 생활의 많은 것들이 달라졌습니다. 결혼식 풍경도 그중의 하나입니다. 하객들은 마스크를 착용했고, 거리 두기를 하며 결혼식이 이루어졌죠. 올해도 역시 이런 결혼식의 풍경을 담은 사진 콘테스트가 열렸습니다. 바로 준벅웨딩(Junebug Wedding)의 &#x27;올해 최고의 웨딩 사진(The Best</p>
+						<div class="source_box">
+							<span class="date">4일 전</span>
+							<span class="source"><span class="source_inner">레드프라이데이</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_24300f6c-4331-11eb-a953-fdddbfdcaeec" data-da-position="true">
+					<a href="https://blog.naver.com/allthat_art/222176442258" class="theme_thumb" data-clk="tcc_sow.list4cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1220%2Fupload_24376999036095184mOAE0.jpg%22&amp;type&#x3D;nf340_228" alt="2.5단계로 잠시 멈춘 뮤지컬 속 그리운 넘버 2" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/allthat_art/222176442258" class="theme_info" data-clk="tcc_sow.list4cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">2.5단계로 잠시 멈춘 뮤지컬 속 그리운 넘버 2</strong>
+						<p class="desc">멈춘 연말 공연 속 뮤지컬 넘버　　글｜김효정 공연 칼럼니스트　코로나19의 기세가 점점 더 심화되면서 사회적 거리두기 3단계가 코앞까지 다가왔다. 만약 사회적 거리두기 3단계가 시행된다면, 그동안 2단계에서 한 좌석 띄어 앉기, 2.5단계에서 두 좌석 띄어 앉기를 했던 공연들이 모두 멈추게 된다. 사회적 거리두기 3단계에서의 공연장 방역조치는 ‘집합금지’이기</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">올댓아트</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-4" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="3"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_c5624e2f-432f-11eb-a2b1-db9b3021a50a" data-da-position="true">
+					<a href="https://blog.naver.com/gugak1951/222176860504" class="theme_thumb" data-clk="tcc_sow.list5cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24534691680667608Pvp4q.jpg%22&amp;type&#x3D;nf340_228" alt="2020년 국립국악원 블로그 콘텐츠 어워드" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/gugak1951/222176860504" class="theme_info" data-clk="tcc_sow.list5cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">2020년 국립국악원 블로그 콘텐츠 어워드</strong>
+						<p class="desc">​다사다난했던 2020년이어느덧 며칠 남지 않았습니다.​유난히 힘들고 고단한 일들이 많았던 한 해,국립국악원 블로그, SNS, 유튜브에방문하신 동안만이라도 즐겁길 바라며참으로 분주하게 보냈었는데요.​그래서 오늘은 올 한해 여러분이가장 많이 사랑해 주신 콘텐츠를꼽아보는 시간을 가져보려고 합니다.​과연 영광의 주인공들은 누구일까요?​5위.이몽룡이 아니라 성몽.</p>
+						<div class="source_box">
+							<span class="date">5일 전</span>
+							<span class="source"><span class="source_inner">국악이</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_b2ac84e1-432a-11eb-aece-49ac1d665162" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30259336&amp;memberNo&#x3D;37451778&amp;navigationType&#x3D;push" class="theme_thumb" data-clk="tcc_sow.list5cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24532258268021146KMe1A.jpg%22&amp;type&#x3D;nf340_228" alt="근대 최초의 극장부터 공포 체험까지...이주의 온라인 연극" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30259336&amp;memberNo&#x3D;37451778&amp;navigationType&#x3D;push" class="theme_info" data-clk="tcc_sow.list5cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">근대 최초의 극장부터 공포 체험까지...이주의 온라인 연극</strong>
+						<p class="desc">하루 확진자 1000명을 웃돌고 있는 요즘. 대면을 기반으로 이뤄지던 공연들을 &#x27;온라인 중계&#x27;를 통해 만나는 것도 이제는 익숙한 일이 되었다. 여러 온라인 공연들, 요즘은 어떻게 진행되고 있을까?동양극장 2020&lt;동양극장 2020&gt;은 국립극단이 2014년부터 선보였던 ‘근현대 희곡의 재발견’의 열한 번째 공연이다. 1920년</p>
+						<div class="source_box">
+							<span class="date">5일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_68e700b4-4331-11eb-a953-fdb3ccaa1e87" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30275536&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list5cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24542421917212555Yv0Ou.jpg%22&amp;type&#x3D;nf340_228" alt="퀴즈 맞추고 &#x27;베르테르&#x27; 온라인 관람권 받아가세요!" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30275536&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list5cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">퀴즈 맞추고 '베르테르' 온라인 관람권 받아가세요!</strong>
+						<p class="desc">2020년 11월 1일 20주년 기념 공연을 성황리에 마친 창작 뮤지컬 &lt;베르테르&gt;가 12/28(월), 1/4(월) 네이버TV 후원 라이브에서 유료 온라인 공연을 선보입니다. 지난 10월과 11월 진행된 뮤지컬 &lt;어쩌면 해피엔딩&gt; 온라인 공연에 이어 CJ ENM이 선보이는 두 번째 온라인 공연 서비스인데요.</p>
+						<div class="source_box">
+							<span class="date">2일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_eee3a6a1-4330-11eb-a953-5151bf8b9cd9" data-da-position="true">
+					<a href="https://blog.naver.com/hun1056/222180489143" class="theme_thumb" data-clk="tcc_sow.list5cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24535307622421768VJmpc.jpg%22&amp;type&#x3D;nf340_228" alt="&#x27;금손&#x27; 아티스트가 &#x27;병뚜껑&#x27;으로 만든 유명인 초상화, 찐!" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/hun1056/222180489143" class="theme_info" data-clk="tcc_sow.list5cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">'금손' 아티스트가 '병뚜껑'으로 만든 유명인 초상화, 찐!</strong>
+						<p class="desc">애주가분들이라면 술자리에서 한 번 정도는 만들어봤을 일명 #소주병뚜껑아트 입니다. 사실 병뚜껑 아트는 누가 주느냐에 따라 기분이 달라집니다. 동성친구가 준다면 &quot;술자리에 집중해. 할 일 없음?&quot;이라고 말할 것이고, 이성친구가 준다면 &quot;병뚜껑에 의미 부여하려고 하는 분들 분명 있을 겁니다&quot; 여튼 우리나라의 병뚜껑 아트가 술자리에서 즉흥적으로 주...</p>
+						<div class="source_box">
+							<span class="date">2일 전</span>
+							<span class="source"><span class="source_inner">정면돌파</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_83aabee2-403d-11eb-aece-a15f14b18665" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30274323&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list5cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24534284052633865CLaxC.jpg%22&amp;type&#x3D;nf340_228" alt="국내 최장수 민속축제 &#x27;한국민속예술제&#x27;, 온라인서 만나요" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30274323&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list5cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">국내 최장수 민속축제 '한국민속예술제', 온라인서 만나요</strong>
+						<p class="desc">전통공연예술진흥재단은 국내 최장수 민속축제인 ‘제61회 한국민속예술제’를 12월 21일부터 온라인 축제로 개최한다. 전통공연예술진흥재단 유튜브 채널과 네이버 블로그, 한국민속예술제 누리집을 통해 관람할 수 있다. 1958년 ‘전국민속예술경연대회’라는 명칭으로 창설된 한국민속예술제는 국내에서 가장 오래된 민속축제다.</p>
+						<div class="source_box">
+							<span class="date">2일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-5" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="3"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_4a9a0f75-432a-11eb-a953-7bc17c6c37f8" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30262428&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list6cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24532032906815617UwRBX.jpg%22&amp;type&#x3D;nf340_228" alt="알고 보면 더 재밌는 &#x27;더 프롬&#x27; 속 뮤지컬 이야기" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30262428&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list6cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">알고 보면 더 재밌는 '더 프롬' 속 뮤지컬 이야기</strong>
+						<p class="desc">연말 성수기를 맞아 그 어느 때보다도 북적여야 할 공연장들이 코로나19로 인해 얼어붙어 있다. 예매한 티켓을 다 취소당하고 코로나 우울에 빠져 있을 뮤덕들의 마음을 조금이나마 위로해 줄 수 있는 뮤지컬 영화가 있다. 바로 12월 11일 넷플릭스에 공개된 따끈따끈한 신작 &lt;더 프롬&gt;이다. 제목의 &#x27;프롬(prom)&#x27;은 미국 고등학교에서</p>
+						<div class="source_box">
+							<span class="date">4일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_a1822abb-4327-11eb-a2b1-2115a2e875eb" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30263861&amp;memberNo&#x3D;47553557" class="theme_thumb" data-clk="tcc_sow.list6cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_244545770814100065q3fD.jpg%22&amp;type&#x3D;nf340_228" alt="&quot;왜 이러냐옹&quot; 일본 열도 발칵 뒤집혔다는 고양이 그림의 정체" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30263861&amp;memberNo&#x3D;47553557" class="theme_info" data-clk="tcc_sow.list6cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">"왜 이러냐옹" 일본 열도 발칵 뒤집혔다는 고양이 그림의 정체</strong>
+						<p class="desc">잘 그린 그림을 보고 우리는 &quot;사진 같다&quot;라는 표현을 씁니다. 그만큼 정교하기 때문에 사진과 비교를 해도 손색이 없다는 뜻이겠죠? 최근 일본에 살고 있는 19살 아티스트가 그린 고양이 그림을 본 많은 네티즌들은 그녀의 그림을 보고 &lt;속았다&gt;라는 표현을 할 정도로 고양이 그림이 화제가 되고 있다고 합니다.&#x27;하루 오토미(Ha</p>
+						<div class="source_box">
+							<span class="date">4일 전</span>
+							<span class="source"><span class="source_inner">위키비키</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_a1822abc-4327-11eb-a2b1-93da833ca06f" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30269953&amp;memberNo&#x3D;339226" class="theme_thumb" data-clk="tcc_sow.list6cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1222%2Fupload_24532660826273910EnyMw.jpg%22&amp;type&#x3D;nf340_228" alt="&#x27;베스트 오브 베스트&#x27; 웨딩 포토 콘테스트, 수상작은?" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30269953&amp;memberNo&#x3D;339226" class="theme_info" data-clk="tcc_sow.list6cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">'베스트 오브 베스트' 웨딩 포토 콘테스트, 수상작은?</strong>
+						<p class="desc">Best of the Best Wedding Photo Contest[아이디어 래빗] &#x27;Junebug Wedding&#x27;이 주최하는 웨딩 사진 경연 대회 &#x27;베스트 오브 베스트 웨딩 포토 콘테스트(Best of the Best Wedding Photo Contest)&#x27;의 수상작이 공개되었다. 2008년을 시작으로 매년 진행되고 있는 본 사진 경연 </p>
+						<div class="source_box">
+							<span class="date">3일 전</span>
+							<span class="source"><span class="source_inner">아이디어 래빗</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_dafd00ba-4276-11eb-aece-5f4e4f7d7993" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30240053&amp;memberNo&#x3D;22036999" class="theme_thumb" data-clk="tcc_sow.list6cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1220%2Fupload_243665383694309277ki8w.jpg%22&amp;type&#x3D;nf340_228" alt="&#x27;피에타&#x27;를 위에서 봐야 하는 소름 돋는 이유" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30240053&amp;memberNo&#x3D;22036999" class="theme_info" data-clk="tcc_sow.list6cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">'피에타'를 위에서 봐야 하는 소름 돋는 이유</strong>
+						<p class="desc">미켈란젤로 특별전 드로윈아트M컨템포러리에서 진행되고 있는 미켈란젤로의 특별전. 사실 누구나 들어는 봤지만 또렷하게 알고 있는 사람은 많이 없는데요. 저 역시도 신앙을 기반으로 다양한 조각과 작품을 남긴 미켈란젤로에 대해 잘 알지 못했답니다. 전시를 보고 난 다음 미켈란젤로가 정말 천재였어!라고 감탄했는데요. 여러분들도 미켈란젤로의 매력에 빠져보시기를 바라며</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">드로윈아트</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_6e9bfdf7-2b10-11eb-9aa9-e3bae67d3b70" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30251016&amp;memberNo&#x3D;37451778&amp;searchKeyword&#x3D;%EC%86%A1%EC%A7%80%EC%9D%B8&amp;searchRank&#x3D;5" class="theme_thumb" data-clk="tcc_sow.list6cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_24455170474859243JbAQP.jpg%22&amp;type&#x3D;nf340_228" alt="클래식과 함께하는 연말! 온라인 클래식 공연 5" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30251016&amp;memberNo&#x3D;37451778&amp;searchKeyword&#x3D;%EC%86%A1%EC%A7%80%EC%9D%B8&amp;searchRank&#x3D;5" class="theme_info" data-clk="tcc_sow.list6cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">클래식과 함께하는 연말! 온라인 클래식 공연 5</strong>
+						<p class="desc">오늘(17일) 국내 신규 코로나19 확진자 수가 1014명으로 전날에 이어 네 자리수를 기록했습니다. 올 1월 20일 국내에서 처음으로 확진자가 나온 이래 신규 확진자가 이틀 연속 1000명 이상을 기록한 것은 이번이 처음입니다. 취약시설의 집단감염과 ‘일상감염’이 계속되고 있는데요.코로나19 확산세가 좀처럼 꺾이지 않으</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-6" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="4"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_27fe2305-40ca-11eb-aece-a5d64da4203a" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;29793149&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list7cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_242717262053501214oekg.jpg%22&amp;type&#x3D;nf340_228" alt="&quot;끝난 거 아니야?&quot; 연주자가 다시 무대위에 나오는 이유" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;29793149&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list7cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">"끝난 거 아니야?" 연주자가 다시 무대위에 나오는 이유</strong>
+						<p class="desc">어느 피아니스트의 연주회를 보러 왔습니다. 연주가 끝나자 피아니스트에게 뜨거운 박수갈채가 이어집니다. 사람들이 웅성웅성 떠들고 피아니스트도 무대에서 퇴장하는 것을 보니 연주회가 끝났나 봅니다. 가방을 들고일어나려는데 박수가 끊이지 않습니다. 관객들 대부분도 자리에서 일어나지 않습니다. &#x27;아직 일어나면 안 되나&#x27; 생각하는 찰나에 피아니스트가 다시 무대에 나타</p>
+						<div class="source_box">
+							<span class="date">5일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_22e3ae4e-40ca-11eb-a2b1-3d99ab6f5a9e" data-da-position="true">
+					<a href="http://blog.naver.com/canonkoreacamera/222176345653" class="theme_thumb" data-clk="tcc_sow.list7cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_24271832520996391DBGg1.jpg%22&amp;type&#x3D;nf340_228" alt="레트로풍 사진 &#x27;포오즈&#x27; 추천 feat.우정&amp;커플사진 편" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="http://blog.naver.com/canonkoreacamera/222176345653" class="theme_info" data-clk="tcc_sow.list7cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">레트로풍 사진 '포오즈' 추천 feat.우정&커플사진 편</strong>
+						<p class="desc">이번 연도는 유난히 예전의 일상이그리워지고 있는 것 같아요.그래서인지 겪었거나 혹은 겪어보지도 않은레트로 느낌을 찾는 사람들이 많은데요.​레트로 패션 열풍에 맞게 레트로 느낌을더 살리고 친구들과 함께 인생샷을찍고 싶은 분들을 위해레트로 사진 포즈를 추천해드릴게요.​캐논 카메라가 알려주는 사진 포즈로지난날의 감성을 살려재밌는 사진을 담아보세요!1. 손발크..</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">캐논 카메라 Blog</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_027e6a01-425e-11eb-a953-75aebc96c3d6" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30247739&amp;memberNo&#x3D;4568479" class="theme_thumb" data-clk="tcc_sow.list7cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_24443963960948297D6P2f.jpg%22&amp;type&#x3D;nf340_228" alt="비틀즈, 청춘의 기록" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30247739&amp;memberNo&#x3D;4568479" class="theme_info" data-clk="tcc_sow.list7cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">비틀즈, 청춘의 기록</strong>
+						<p class="desc">음악 혁명을 몰고 온 전설적인 록 밴드 비틀즈가 세종문화회관으로 온다. &lt;The Beatles by Robert Whitaker&gt; 사진전으로 만나는 그들의 이야기.영국의 침공!‘브리티시 인베이전(British Invasion)’의 역사는 리버풀에서 시작됐다. 1960년대 미국에는 1950년대를 휩쓸었던 로큰롤 </p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">세종문화회관</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_2f83e540-4272-11eb-aece-8b3ad138ac30" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30267326&amp;memberNo&#x3D;21060" class="theme_thumb" data-clk="tcc_sow.list7cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_24454548446963725cr4Wg.jpg%22&amp;type&#x3D;nf340_228" alt="이 사진은 &#x27;세계 최고 기록&#x27;을 경신했다…왜?" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30267326&amp;memberNo&#x3D;21060" class="theme_info" data-clk="tcc_sow.list7cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">이 사진은 '세계 최고 기록'을 경신했다…왜?</strong>
+						<p class="desc">사진을 찍는 카메라라는 도구는 이 세상에 나온 지 100년 이상이 지났지만 기본 구조는 동일합니다. 조리개를 개방하고 셔터를 누르면 셔터가 열리고 설정한 시간에 맞게 셔터가 닫히면서 촬영이 됩니다. 그래서 카메라 조작의 3요소를 조리개, 셔터스피드, ISO라고 합니다. 이 중에서 셔터스피드는 조리개 구멍을 통해서 빛이 들어오는 시간으로 이 시간이 길면 길수</p>
+						<div class="source_box">
+							<span class="date">3일 전</span>
+							<span class="source"><span class="source_inner">썬도그</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_2daab800-4272-11eb-a953-d5e314805d2d" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30267866&amp;memberNo&#x3D;48793983" class="theme_thumb" data-clk="tcc_sow.list7cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_24453694392545783AzFlv.jpg%22&amp;type&#x3D;nf340_228" alt="&#x27;바스키아&#x27;부터 &#x27;아르떼&#x27;까지! 12월에 갈 수 있는 전시회는?" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30267866&amp;memberNo&#x3D;48793983" class="theme_info" data-clk="tcc_sow.list7cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">'바스키아'부터 '아르떼'까지! 12월에 갈 수 있는 전시회는?</strong>
+						<p class="desc">안녕하세요, 전시회를즐기다 입니다 :)오늘은 12월 서울 전시회추천리스트를 가져왔어요!감상하기 좋은 멋진 작품부터인생샷을 건질 수 있는예쁜 포토존이 있는전시회까지 바로 알아볼까요? 비틀즈 사진전 - 종로 세종문화회관 미술관 ▼ 비틀즈 사진전 :The Beatles by Robert Whitaker전설적인 록 그룹 비틀즈,비틀즈의 명반 &#x27;렛잇비 Let It </p>
+						<div class="source_box">
+							<span class="date">3일 전</span>
+							<span class="source"><span class="source_inner">전시회를즐기다</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-7" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="4"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_027e6a00-425e-11eb-a953-f967947f195e" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30249495&amp;memberNo&#x3D;1067901" class="theme_thumb" data-clk="tcc_sow.list8cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_24443465373286964r5K2c.jpg%22&amp;type&#x3D;nf340_228" alt="신축년을 맞이하는 카툰전, &quot;근면성실하소!&quot;" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30249495&amp;memberNo&#x3D;1067901" class="theme_info" data-clk="tcc_sow.list8cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">신축년을 맞이하는 카툰전, "근면성실하소!"</strong>
+						<p class="desc">신축년(辛丑年) 하얀 소의 해, 카툰 작가의 기발한 상상력과 함께 맞이하세요!만화도시 부천 한국만화박물관에서, 2020년 경자년(庚子年) ‘하얀 쥐의 해’를 보내고 2021년 신축년(辛丑年) ‘하얀 소의 해’를 맞이하는 신년 카툰전 &lt;근면성실하소&gt;를 선보입니다!</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">한국만화박물관</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_707b93b5-2b10-11eb-b098-c399a4063c73" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30203267&amp;memberNo&#x3D;37451778&amp;searchKeyword&#x3D;%EC%86%A1%EC%A7%80%EC%9D%B8&amp;searchRank&#x3D;11" class="theme_thumb" data-clk="tcc_sow.list8cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1221%2Fupload_24455224314923254qJsRD.jpg%22&amp;type&#x3D;nf340_228" alt="발레리나 최지원 &quot;발레는 종합예술…팍팍한 삶의 한줄기 빛 같은 존재 될 것&quot;" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30203267&amp;memberNo&#x3D;37451778&amp;searchKeyword&#x3D;%EC%86%A1%EC%A7%80%EC%9D%B8&amp;searchRank&#x3D;11" class="theme_info" data-clk="tcc_sow.list8cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">발레리나 최지원 "발레는 종합예술…팍팍한 삶의 한줄기 빛 같은 존재 될 것"</strong>
+						<p class="desc">※ 유니버설발레단의 &lt;호두까기인형&gt;은 ‘코로나19’ 재확산에 따른 불가피한 사정으로 취소되었습니다.최지원은 티 없이 맑은 느낌을 주는 발레리나다. 인터뷰 내내 차분하고 부드러운 모습의 그는 선화예술학교와 선화예고를 거쳐 이화여대 무용학과를 졸업했다. 2004년 동아무용콩쿠르 동상, 2005년 아시아태평양 국제발레콩쿠르 3위,</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_d48f7eb5-4276-11eb-aece-9d1a7b19b8d5" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30239148&amp;memberNo&#x3D;43966789" class="theme_thumb" data-clk="tcc_sow.list8cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_24292167496217799oLOX6.jpg%22&amp;type&#x3D;nf340_228" alt="등장만 하면 100% 입양? 특별한 크리스마스 화보" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30239148&amp;memberNo&#x3D;43966789" class="theme_info" data-clk="tcc_sow.list8cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">등장만 하면 100% 입양? 특별한 크리스마스 화보</strong>
+						<p class="desc">차이콥스키의 발레극 &#x27;호두까기 인형&#x27;을 아시나요? 사실 호두까기 인형 이야기는 E.T.A. 호프만이라는 이름의 작가가 쓴 것인데요. 이 이야기는 아름답고 웅장하며 신비한 상상력으로 지금까지 사랑받고 있는 고전이기도 합니다.호두까기 인형 속에는 주인공 소녀 마리가 등장하는데요. 호두까기 인형은 마리를 위해 생쥐 왕과 전투를 벌이고, 이들은 신비한 나라로 들어</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">레드프라이데이</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_22e3ae4f-40ca-11eb-a2b1-6706dd6052f0" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30083958&amp;memberNo&#x3D;32551279" class="theme_thumb" data-clk="tcc_sow.list8cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_24271946242816574XWYzT.jpg%22&amp;type&#x3D;nf340_228" alt="2020 소니 월드 포토그래피 어워드 프로페셔널 부문 &#x27;인물&#x27; 주요 수상작" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30083958&amp;memberNo&#x3D;32551279" class="theme_info" data-clk="tcc_sow.list8cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">2020 소니 월드 포토그래피 어워드 프로페셔널 부문 '인물' 주요 수상작</strong>
+						<p class="desc">소니가 후원하고 세계사진협회(WPO)가 주관하는 세계 최대 규모의 권위 있는 글로벌 사진 대회 ‘2020 소니 월드 포토그래피 어워드(2020 Sony World Photography Awards)’가 올해로 14주년을 맞이했습니다. 올해는 총 34만 5천 장 이상의 사진이 출품되는 등 역대 최대 규모의 출</p>
+						<div class="source_box">
+							<span class="date">3주일 전</span>
+							<span class="source"><span class="source_inner">소니코리아</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_d48f7eb4-4276-11eb-aece-d9a09d215d2c" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30251316&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list8cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_24292131545478600t1Byq.jpg%22&amp;type&#x3D;nf340_228" alt="&#x27;오페라의 유령&#x27; 록스머스 &quot;한국은 두 번째 집&quot;" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30251316&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list8cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">'오페라의 유령' 록스머스 "한국은 두 번째 집"</strong>
+						<p class="desc">&lt;오페라의 유령&gt; 월드투어로 한국 관객들을 사로잡았던 조나단 록스머스(Jonathan Roxmouth)가 2021년 1월 단독 콘서트로 한국을 다시 찾는다. 남아프리카 공화국 출신의 뮤지컬 배우 조나단 록스머스는 2011년 뮤지컬 &lt;오페라의 유령&gt; 월드투어 영어 프로덕션 중 역대 최연소로 &#x27;유령&#x27; 역에 발탁되어 주목받았다</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-8" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="5"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_b751cb1a-40f8-11eb-aece-718c19d93aea" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30067773&amp;memberNo&#x3D;40848952" class="theme_thumb" data-clk="tcc_sow.list9cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1216%2Fupload_24012893709938077mHUEi.jpg%22&amp;type&#x3D;nf340_228" alt="&#x27;부캐&#x27;로만 5천만원 수입…&#x27;금손&#x27; 구혜선의 근황" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30067773&amp;memberNo&#x3D;40848952" class="theme_info" data-clk="tcc_sow.list9cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">'부캐'로만 5천만원 수입…'금손' 구혜선의 근황</strong>
+						<p class="desc">최근 이혼 등의 아픔을 겪고 한 예능 프로그램에 출연한 구혜선이 화제가 되었습니다. 구혜선은 연예계에 대표적인 만능 엔터테이너로서 폭넓은 활동 영역을 보여주고 있는데요. 최근에 화제가 된 것은 ‘화가 구혜선’의 수익이었습니다. 도대체 얼마나 높은 수익을 기록한 것인지 궁금한데요. 함께 알아보겠습니다.아트테이너 구혜선구혜선은 하정우, 이</p>
+						<div class="source_box">
+							<span class="date">3주일 전</span>
+							<span class="source"><span class="source_inner">스마트인컴</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_16deaa9a-426a-11eb-aece-d380a976b793" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30253197&amp;memberNo&#x3D;339226" class="theme_thumb" data-clk="tcc_sow.list9cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1220%2Fupload_24377189009936163YQfrw.jpg%22&amp;type&#x3D;nf340_228" alt="입이 &#x27;떡&#x27; 벌어지는 최고의 오로라 사진들" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30253197&amp;memberNo&#x3D;339226" class="theme_info" data-clk="tcc_sow.list9cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">입이 '떡' 벌어지는 최고의 오로라 사진들</strong>
+						<p class="desc">Northern Lights Photographer of the Year[아이디어 래빗] &#x27;Capture the Atlas&#x27;가 주최하는 &#x27;올해의 북극광 사진(Northern Lights Photographer of the Year)&#x27;의 우승작이 공개되었다. 올해로 3년 차를 맞이한 본 콘테스트는 러시아, 노르웨이, 캐나다, 라플란드, 아이슬란</p>
+						<div class="source_box">
+							<span class="date">5일 전</span>
+							<span class="source"><span class="source_inner">아이디어 래빗</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_b751cb18-40f8-11eb-aece-f1c0ac7e6bfc" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30127005&amp;memberNo&#x3D;32913615" class="theme_thumb" data-clk="tcc_sow.list9cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1215%2Fupload_23931514877176516GWA1h.jpg%22&amp;type&#x3D;nf340_228" alt="외계인의 예술작품? 미스터리한 금속 기둥 정체는?" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30127005&amp;memberNo&#x3D;32913615" class="theme_info" data-clk="tcc_sow.list9cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">외계인의 예술작품? 미스터리한 금속 기둥 정체는?</strong>
+						<p class="desc">최근 유타 남부에 위치한 붉은 바위 협곡의 깊은 곳에서 신비한 형태의 금속 기둥이 발견되었습니다. 현재까지 해당 기둥이 어디에서 왔는지, 누군가가 설치한 것인지 등 뚜렷하게 밝혀진 사실들은 없습니다. 처음 이 조형물을 발견한 것은 유타주의 공공 안전 관리국 장교들에 의해서입니다. 장교들은 해당 지역에서 헬리콥터 비행 중 붉은 협곡 사이로 주변과 어울리지 않</p>
+						<div class="source_box">
+							<span class="date">2주일 전</span>
+							<span class="source"><span class="source_inner">그리미</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_9c005631-4024-11eb-a953-55b3b5d0a88a" data-da-position="true">
+					<a href="https://blog.naver.com/k-auction/222175613685" class="theme_thumb" data-clk="tcc_sow.list9cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1218%2Fupload_24199887258909952nWmD1.jpg%22&amp;type&#x3D;nf340_228" alt="테이프로 그린 미세한 차이의 풍경" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/k-auction/222175613685" class="theme_info" data-clk="tcc_sow.list9cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">테이프로 그린 미세한 차이의 풍경</strong>
+						<p class="desc">​마치 물감의 그라데이션으로 보이는 김이수의 작품은 가까이에서 보아야 그 진가를 알 수 있습니다. 수많은 색띠들이 겹쳐져서 만들어낸 미세한 색의 차이, 그것들이 만들어낸 차이의 풍경인 그의 작품은 ‘무슨 이야기를 하는 걸까?’라는 궁금증을 일으킵니다. ‘앵프라맹스-풍경’이라는 주제로 꾸준히 작업해오고 있는 김이수 작가를 만나 작품에 대한 이야기를 들어보았습</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">케이옥션</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_9ce747d2-400c-11eb-a2b1-07c3bc5acbcb" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30239515&amp;memberNo&#x3D;838891" class="theme_thumb" data-clk="tcc_sow.list9cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1218%2Fupload_24189482512507389e0at3.jpg%22&amp;type&#x3D;nf340_228" alt="연말을 따스하게 감싸줄 겨울템 DIY 키트 추천" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30239515&amp;memberNo&#x3D;838891" class="theme_info" data-clk="tcc_sow.list9cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">연말을 따스하게 감싸줄 겨울템 DIY 키트 추천</strong>
+						<p class="desc">벌써 12월이 다가왔네요, 여러분! 날씨도 제법 많이 추워지고 롱패딩을 꺼내야하는 계절이 왔어요. 추워서 집에만 있고 싶은 요즘, 연말을 따뜻하게 보낼 수 있는 겨울템을 직접 만들어보는 건 어떨까요? 목도리, 담요, 모자까지! DIY 키트로 들 수 있는 다양한 아이템들을 소개해 드릴게요. 직접 만들어 연말 또는 크리스마스에 특별한 선물로 주기도 좋아요. 모</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">프립</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-9" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="5"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_79796a47-40cf-11eb-a2b1-1ffe21d2a4d2" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30199054&amp;memberNo&#x3D;33157622" class="theme_thumb" data-clk="tcc_sow.list10cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_24273229795916348UeqDl.jpg%22&amp;type&#x3D;nf340_228" alt="오늘의 아티스트 : 나의 가족, 나의 반려동물을 그려요, 안나 작가" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30199054&amp;memberNo&#x3D;33157622" class="theme_info" data-clk="tcc_sow.list10cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">오늘의 아티스트 : 나의 가족, 나의 반려동물을 그려요, 안나 작가</strong>
+						<p class="desc">이 세상에 강아지보다 귀여운 게 또 있을까 이 세상 어느 누가 너희들처럼 늘 변치 않는 사랑을 줄까 내 마음이 우울할 때도 왜냐고 묻지 않았죠 언제나 어디서나 따라다니며 늘 변치 않는 사랑을 줬죠 비바람이 부는 날에도 너희를 안고 있으면 창밖에 비바람도 두렵지 않아 참 편안하게 쉴 수가 있죠 내 인생의 가장 따뜻한 추억을 남겨준 친구 - 양희은 &quot;</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">미쓰미</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_c3e7623e-40f8-11eb-a2b1-5fcf3c3ff91a" data-da-position="true">
+					<a href="https://blog.naver.com/allthat_art/222173280577" class="theme_thumb" data-clk="tcc_sow.list10cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1215%2Fupload_23948337798152977EGJCD.jpg%22&amp;type&#x3D;nf340_228" alt="탈옥해서 백작이 된 남자가 있다? &#x27;몬테크리스토&#x27; 웹툰으로 예습하기" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/allthat_art/222173280577" class="theme_info" data-clk="tcc_sow.list10cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">탈옥해서 백작이 된 남자가 있다? '몬테크리스토' 웹툰으로 예습하기</strong>
+						<p class="desc">뮤지컬 &lt;몬테크리스토&gt;​2020.11.17 ~ 2021.03.07※코로나19로 12.05 ~ 12.27 공연 중단서울 LG아트센터8세 이상 관람가​엄기준, 카이, 신성록, 옥주현, 린아, 이지혜 등 출연뮤지컬 &lt;몬테크리스토&gt; 드레스 리허설 온라인 영상​12월 25일 오후 7시12월 26일 오후 2시신성록, 이지혜 등 출연​12월 14일 오후 2시부터 네이버</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">올댓아트</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_9ce747d1-400c-11eb-a2b1-db84b3d10cf6" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30236592&amp;memberNo&#x3D;47129033&amp;navigationType&#x3D;push" class="theme_thumb" data-clk="tcc_sow.list10cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1218%2Fupload_241894358244048934aelm.jpg%22&amp;type&#x3D;nf340_228" alt="악보 없이 마스터할 수 있는 우쿨렐레 배우기" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30236592&amp;memberNo&#x3D;47129033&amp;navigationType&#x3D;push" class="theme_info" data-clk="tcc_sow.list10cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">악보 없이 마스터할 수 있는 우쿨렐레 배우기</strong>
+						<p class="desc">혼자 보내는 시간이 길어진 요즘, 무료한 일상에 마음이 휑해진다면 집에서 즐길 수 있는 새로운 취미 악기를 배워보는 건 어떨까요? 색다른 취미 악기를 찾는다면 한 품에 쏙 들어오는 크기에 경쾌한 음색을 가진 우쿨렐레를 추천해 드립니다. 우쿨렐레는 하와이의 전통 악기로 장난감처럼 앙증맞은 크기에 연주법도 쉬워 어디에서나 함께 할 수 있어요. 4개의 작은 줄을</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">클래스101</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_c3e7623f-40f8-11eb-a2b1-613e49e697c4" data-da-position="true">
+					<a href="https://blog.naver.com/allthat_art/222173468725" class="theme_thumb" data-clk="tcc_sow.list10cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1216%2Fupload_24014332579159401PcaMo.jpg%22&amp;type&#x3D;nf340_228" alt="세종문화회관·예술의전당…우리가 몰랐던 공연장의 비밀" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/allthat_art/222173468725" class="theme_info" data-clk="tcc_sow.list10cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">세종문화회관·예술의전당…우리가 몰랐던 공연장의 비밀</strong>
+						<p class="desc">국내 유명 공연장의 설치와 운영​글 ㅣ백세희 변호사​이런 서두는 또 쓰고 싶지 않았다. 지난 12월 6일 중앙재난안전대책본부가 발표한 수도권 지역 사회적 거리두기 2.5단계 격상에 따라 서울시 소재 국립문화예술시설이 12월 8일부터 전면 휴관에 들어갔다. 수도권 이외 지역도 사회적 거리두기 2단계가 발효 중이고 확진자가 줄어들기는커녕 확산일로에 접어들고 있</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">올댓아트</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_c3e7623d-40f8-11eb-a2b1-6336fd754cd4" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30203267&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list10cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1214%2Fupload_23842538236755430MdjZB.jpg%22&amp;type&#x3D;nf340_228" alt="발레리나 최지원 &quot;팍팍한 삶의 한줄기 빛 같은 존재 될 것&quot;" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30203267&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list10cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">발레리나 최지원 "팍팍한 삶의 한줄기 빛 같은 존재 될 것"</strong>
+						<p class="desc">※ 유니버설발레단의 &lt;호두까기인형&gt;은 ‘코로나19’ 재확산에 따른 불가피한 사정으로 취소되었습니다.최지원은 티 없이 맑은 느낌을 주는 발레리나다. 인터뷰 내내 차분하고 부드러운 모습의 그는 선화예술학교와 선화예고를 거쳐 이화여대 무용학과를 졸업했다. 2004년 동아무용콩쿠르 동상, 2005년 아시아태평양 국제발레콩쿠르 3위,</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-10" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="6"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_b751cb19-40f8-11eb-aece-1f9663c49f50" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30209399&amp;memberNo&#x3D;37451778&amp;navigationType&#x3D;push" class="theme_thumb" data-clk="tcc_sow.list11cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1217%2Fupload_241007895234989447esIo.jpg%22&amp;type&#x3D;nf340_228" alt="우리 다시 돌아갈 수 있을까, 코로나 이전 일상으로" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30209399&amp;memberNo&#x3D;37451778&amp;navigationType&#x3D;push" class="theme_info" data-clk="tcc_sow.list11cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">우리 다시 돌아갈 수 있을까, 코로나 이전 일상으로</strong>
+						<p class="desc">아무렇지도 않게 반복하던 평범한 일상들이 많이 그립습니다. 그 소중한 일상들을 심지어 지루하게 생각했던 기억이 떠올라 후회스럽기도 합니다. 일상이 멈춰버린 지금 생각해보니 뭐 하나 거저 주어진 게 없던 풍경이었는데 말이지요. 이진이, Last Summer-머무르다, 2018, 캔버스에 유화, 53.0x45.5cm(왼쪽). 이진이, 어느 날, 2019, 캔버</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_ee950f90-40d5-11eb-a2b1-b3104fd689de" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30251016&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list11cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_24275778081465421HTdev.jpg%22&amp;type&#x3D;nf340_228" alt="집콕하며 보기 좋은 온라인 클래식 공연 5" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30251016&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list11cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">집콕하며 보기 좋은 온라인 클래식 공연 5</strong>
+						<p class="desc">오늘(17일) 국내 신규 코로나19 확진자 수가 1014명으로 전날에 이어 네 자리수를 기록했습니다. 올 1월 20일 국내에서 처음으로 확진자가 나온 이래 신규 확진자가 이틀 연속 1000명 이상을 기록한 것은 이번이 처음입니다. 취약시설의 집단감염과 ‘일상감염’이 계속되고 있는데요.코로나19 확산세가 좀처럼 꺾이지 않으</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_f701c43d-403e-11eb-a953-b9716495d122" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30243499&amp;memberNo&#x3D;37451778&amp;navigationType&#x3D;push" class="theme_thumb" data-clk="tcc_sow.list11cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1218%2Fupload_24209033218893736MepvX.jpg%22&amp;type&#x3D;nf340_228" alt="&#x27;에어포트 베이비&#x27; 박칼린 &quot;코로나19에도 계속돼야 한다 확신한 작품&quot;" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30243499&amp;memberNo&#x3D;37451778&amp;navigationType&#x3D;push" class="theme_info" data-clk="tcc_sow.list11cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">'에어포트 베이비' 박칼린 "코로나19에도 계속돼야 한다 확신한 작품"</strong>
+						<p class="desc">조쉬 코헨은 한국에서 태어나 생후 한 살 때 미국으로 입양됐다. 부유한 부모 밑에서 부족함 없이 성장한 20년. 그러나 백인들 사이에서 느끼는 이질감과 뿌리를 찾고 싶단 갈망은 늘 조쉬를 그림자처럼 따라다녔다. 결국 스물두 살이 되던 해, 조쉬는 생모를 찾아 한국으로 떠나기로 결심한다. 그러나 웬걸, 입양 에이전시에서 알려준 생모의 주소는 재개발로 사라진 </p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_c3e7623c-40f8-11eb-a2b1-75511cf0f0b4" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30222689&amp;memberNo&#x3D;37451778" class="theme_thumb" data-clk="tcc_sow.list11cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1216%2Fupload_24012748412248629Bwjgu.jpg%22&amp;type&#x3D;nf340_228" alt="나이는 숫자일 뿐! 노년에 새 인생 시작한 희망의 아이콘들" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30222689&amp;memberNo&#x3D;37451778" class="theme_info" data-clk="tcc_sow.list11cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">나이는 숫자일 뿐! 노년에 새 인생 시작한 희망의 아이콘들</strong>
+						<p class="desc">*이 글에는 뮤지컬 &lt;HOPE: 읽히지 않은 책과 읽히지 않은 인생&gt;(이하 &#x27;호프&#x27;)의 스포일러가 포함돼 있습니다. 그게 나야 아무도 관심 갖지 않고 아무도 들여다보지 않는 저 혼자 늙고 어느새 낡아 버린 원고만 남은 여자 20XX년 X월 X일 이스라엘 텔아비브 법정 오전 9시 25분. 오늘 이스라엘 국립 도서관과 에바 호프의 마지</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">네이버 공연전시</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_d62f2752-41c1-11eb-a953-8b5deff3888c" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30258054&amp;memberNo&#x3D;23067845&amp;navigationType&#x3D;push" class="theme_thumb" data-clk="tcc_sow.list11cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1220%2Fupload_24377248085263304A9kQx.jpg%22&amp;type&#x3D;nf340_228" alt="&quot;갖고 싶어!&quot; 세상 힙하다는 국립중앙박물관 굿즈" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30258054&amp;memberNo&#x3D;23067845&amp;navigationType&#x3D;push" class="theme_info" data-clk="tcc_sow.list11cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">"갖고 싶어!" 세상 힙하다는 국립중앙박물관 굿즈</strong>
+						<p class="desc">국립 박물관의 힙한 신상 MD부터 비건 인증받은 사또밥까지! 핫한 신상 소식을 모아봤습니다. ･∀･○세상 힙한 국립박물관 신상 MD국립중앙박물관 대표 유물인 반가사유상(국보제83호)이 컬러 미니어처로 출시됐습니다. 금동, 청동 색상과 더불어 다양한 컬러로 선보이는데요. 도색 기법에 따른 묵직한 무게감과 트렌디한 색상에서 나오는 화</p>
+						<div class="source_box">
+							<span class="date">5일 전</span>
+							<span class="source"><span class="source_inner">디스패치 스타일</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+<div class="group_theme" data-block-id="" data-block-code="PC-THEME-SHOW-MOBILE-RANKING-DEFAULT-11" data-block-type="MATERIALS" data-template-code="MOBILE-RANKING-LIST"
+
+	 data-da="container"
+	 data-index=""
+     data-page="6"
+	 style="display:none">
+
+	<div class="list_theme_wrap">
+		<ul class="list_theme">
+			
+				<li class="theme_item" data-gdid="CAS_ee950f91-40d5-11eb-a2b1-a58f026cfa09" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30222872&amp;memberNo&#x3D;43966789" class="theme_thumb" data-clk="tcc_sow.list12cont1" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_242758013507172407DVE3.jpg%22&amp;type&#x3D;nf340_228" alt="엘사 왕관은 5억? 디즈니 공주 액세서리의 실제 가격은?" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30222872&amp;memberNo&#x3D;43966789" class="theme_info" data-clk="tcc_sow.list12cont1" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">엘사 왕관은 5억? 디즈니 공주 액세서리의 실제 가격은?</strong>
+						<p class="desc">디즈니 공주들은 이제 하나의 캐릭터를 넘어 문화의 아이콘으로 자리 잡고 있습니다. 이들의 고운 머릿결, 그리고 아름다운 드레스는 모든 아이들의 선망의 대상이기도 합니다. 그리고 디즈니 공주들에게서 빼놓을 수 없는 것은 바로 이들의 액세서리입니다.얼마 전 디즈니 공주들의 액세서리에 관한 재미있는 연구가 공개되며 큰 화제가 되고 있습니다. 바로 공주들의 액세서</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">레드프라이데이</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_9c005630-4024-11eb-a953-97f6a9948965" data-da-position="true">
+					<a href="https://blog.naver.com/k-auction/222169130412" class="theme_thumb" data-clk="tcc_sow.list12cont2" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1212%2Fupload_23666740591934719J6yJo.jpg%22&amp;type&#x3D;nf340_228" alt="당신의 일상에 Knock Knock" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/k-auction/222169130412" class="theme_info" data-clk="tcc_sow.list12cont2" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">당신의 일상에 Knock Knock</strong>
+						<p class="desc">​여러분은 오늘 하루 어떻게 보내셨나요? 2020년도 얼마 남지 않은 오늘, 나와 함께하는 주변의 소소한 것들에서 즐거움과 행복을 발견하는 하루가 되셨기를 바랍니다. 날마다 반복되는 우리의 일상은 때로는 너무 잔잔하기도 해서 시간이 흘러가는 순간을 느끼지 못하는 경우도 많은데요. 콰야 작가의 작품을 하나하나 들여다보고 있으면, 나의 일상에도 이런 반짝이는 </p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">케이옥션</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_79796a48-40cf-11eb-a2b1-0f63a08494e4" data-da-position="true">
+					<a href="https://blog.naver.com/i_sfac/222176782199" class="theme_thumb" data-clk="tcc_sow.list12cont3" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_24273271061733153ajvzN.jpg%22&amp;type&#x3D;nf340_228" alt="함께 부르는 노래의 세상을 바꾸는 힘 : 2020 서울예술교육 아카데미 질문의 진화 &#x27;함께 노래하는 것에 대하여&#x27;" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/i_sfac/222176782199" class="theme_info" data-clk="tcc_sow.list12cont3" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">함께 부르는 노래의 세상을 바꾸는 힘 : 2020 서울예술교육 아카데미 질문의 진화 '함께 노래하는 것에 대하여'</strong>
+						<p class="desc">우리는 음악을 듣는다. 흥얼거리고, 노래를 부른다. 잘 모르는 언어를 발음하는 것은 무척 어려운 일인데도 잘 모르는 언어로 된 노래는 쉽게 부른다. 우리는 함께 노래를 부른다. 함께 노래를 부를 수 있다는 것은 뜻밖의 친밀감이나 동질감을 주기도 하고, 때로는 힘이 나게 하기도 한다. 노래라는 신기한 경험과 그 힘은 곳곳에 있지만, 우리는 그것을 눈치채지 못</p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">서울문화재단</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_25d27aaf-3f95-11eb-aece-e38e0c53a5a8" data-da-position="true">
+					<a href="https://blog.naver.com/yjsjcf/222175835332" class="theme_thumb" data-clk="tcc_sow.list12cont4" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1217%2Fupload_24138118372854405v4nHW.jpg%22&amp;type&#x3D;nf340_228" alt="최정원, 전수경, 홍지민의 뮤지컬 갈라 콘서트" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://blog.naver.com/yjsjcf/222175835332" class="theme_info" data-clk="tcc_sow.list12cont4" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">최정원, 전수경, 홍지민의 뮤지컬 갈라 콘서트</strong>
+						<p class="desc">﻿여주세종문화재단의 기획공연을 온라인으로 만나는 &lt;랜선국악당&gt; Vol.17 보통의 크리스마스에 우린 조금 들떴고, 이벤트를 생각했고, 즐겁길 기대했습니다. 그런 평범한 우리의 일상이 잠시 멈췄지만 그래도 12월 24일 만큼은 여주세종문화재단이 준비한 &lt;최정원, 전수경, 홍지민의 뮤지컬 갈라 콘서트&gt;로 행복한 시간을 보내세요.​2020.12.24(목) 오후 </p>
+						<div class="source_box">
+							<span class="date">6일 전</span>
+							<span class="source"><span class="source_inner">여주세종문화재단</span></span>
+						</div>
+					</a>
+				</li>
+			
+				<li class="theme_item" data-gdid="CAS_41953daf-41a9-11eb-aece-5f716d2cd2f3" data-da-position="true">
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30226303&amp;memberNo&#x3D;4444311" class="theme_thumb" data-clk="tcc_sow.list12cont5" target="_blank">
+						<img  data-src="https://s.pstatic.net/dthumb.phinf/?src&#x3D;%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F2020%2F1219%2Fupload_24292528071666245AxlLI.jpg%22&amp;type&#x3D;nf340_228" alt="완벽한 싱크로 50만 팔로워 매료시킨 코스플레이어" width="170" height="114">
+						<span class="thumb_bd"></span>
+					</a>
+					<a href="https://post.naver.com/viewer/postView.nhn?volumeNo&#x3D;30226303&amp;memberNo&#x3D;4444311" class="theme_info" data-clk="tcc_sow.list12cont5" target="_blank">
+						<em class="theme_category"> 공연전시</em>
+						<strong class="title elss">완벽한 싱크로 50만 팔로워 매료시킨 코스플레이어</strong>
+						<p class="desc">&lt;미녀와 야수&gt;의 벨, &lt;슈렉&gt; 피로나공주, &lt;왕좌의 게임&gt;의 대너리스 타르가르옌, &lt;수어사이드 스쿼드&gt;의 할리 퀸와 조커까지 유명 영화와 애니메이션 속 주인공과 완벽한 싱크로율을 자랑하는 사진 속 인물이 모두 같은 사람이라면 믿어지시나요?러시아 출신 코스플레이어 &#x27;일로나 부가에바: Ilona Bugaeva&#x27;는 코</p>
+						<div class="source_box">
+							<span class="date">1주일 전</span>
+							<span class="source"><span class="source_inner">디아티스트매거진</span></span>
+						</div>
+					</a>
+				</li>
+			
+		</ul>
+	</div>
+</div>
+
+
+	<p class="alert_msg" data-clk-prefix="tcc_sow">공연전시 판의 컨텐츠는 <a href="https://blog.naver.com/allthat_art" data-clk-suffix="corp" target="_blank">㈜아티션</a>에 의해 운영·편집 됩니다.</p>
+
+
+
+	<div class="btn_more_wrap">
+		<button type="button" class="btn_more" data-clk-custom="tcc_sow.more" data-next-page="2"><i class="ico_more"></i>새로운 글 더보기</button>
+	</div>
+
+
+	</div>
+</div>
+ </div> </div> <div id="NM_INT_RIGHT" class="column_right"> <div class="column_fix_wrap"> <div id="da_brand"></div> 
+
+
+
+
+<div id="account" class="sc_login">
+<h2 class="blind">Sign in</h2>
+<p class="login_msg">Connect with people</p>
+<a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com" class="link_login" data-clk="log_off.login"><i class="ico_naver"><span class="blind">NAVER</span></i>Sign in</a>
+<div class="sub_area">
+<div class="look_box">
+<a href="https://nid.naver.com/user/help.nhn?todo=idinquiry" class="link_look" data-clk="log_off.searchid">Forgot Username</a>
+<a href="https://nid.naver.com/nidreminder.form" class="link_look" data-clk="log_off.searchpass">Password</a>
+</div>
+<a href="https://nid.naver.com/nidregister.form?url=https%3A%2F%2Fwww.naver.com" class="link_join" data-clk="log_off.registration">Sign up</a>
+</div>
+</div>
+
+
+
+ <div id="timesquare" class="sc_timesquare"> <h2 class="blind">타임스퀘어</h2> <div class="card_wrap">
+<div class="card_nav">
+<a href="#" role="button" class="btn_nav btn_prev" data-clk="squ.pre"><span class="blind">이전</span></a>
+<a href="#" role="button" class="btn_nav btn_next" data-clk="squ.next"><span class="blind">다음</span></a>
+</div>
+<div id="NM_TS_ROLLING_WRAP" style="height: 100%;">
+<div>
+<a href="https://search.naver.com/search.naver?sm=top_hty&amp;fbm=0&amp;ie=utf8&amp;query=%EC%BD%94%EB%A1%9C%EB%82%9819" class="card_news" data-clk="squ.line3"><i class="news_badge">이슈</i><span class="news">코로나바이러스감염증19 현황</span></a>
+</div>
+<div>
+<a data-clk="squ.weat" href="https://weather.naver.com/today/09680103" class="card_weather ico_w07">
+<div class="current_box">
+<strong class="current" aria-label="현재기온">9.0°</strong><strong class="state">흐림</strong>
+</div>
+<div class="degree_box">
+<span class="min" aria-label="최고기온">9.0°</span><span class="max" aria-label="최저기온">-2.0°</span>
+</div>
+<span class="location">개포동</span>
+</a>
+</div>
+<div>
+<a data-clk="squ.dust" href="https://weather.naver.com/today/09680103" class="card_air">
+<ul class="list_air">
+<li class="air_item">미세<strong class="state state_normal">보통</strong></li>
+<li class="air_item">초미세<strong class="state state_bad">나쁨</strong></li>
+</ul>
+<span class="location">개포동</span>
+</a>
+</div>
+
+<div>
+<a href="https://finance.naver.com/world/sise.nhn?symbol=RUI@RTSI" class="card_stock " data-clk="squ.rus">
+<strong class="stock_title">증시</strong>
+<div class="stock_box">
+<em class="name">러시아</em>
+<strong class="current">1,352.73</strong>
+<span class="rate rate_up">1.30 +0.09%</span>
+</div>
+</a>
+</div>
+<div>
+<a href="https://finance.naver.com/world/sise.nhn?symbol=XTR@DAX30" class="card_stock " data-clk="squ.ger">
+<strong class="stock_title">증시</strong>
+<div class="stock_box">
+<em class="name">독일</em>
+<strong class="current">13,508.14</strong>
+<span class="rate rate_up">90.03 +0.67%</span>
+</div>
+</a>
+</div>
+<div>
+<a href="https://finance.naver.com/world/sise.nhn?symbol=STX@SX5E" class="card_stock " data-clk="squ.euro">
+<strong class="stock_title">증시</strong>
+<div class="stock_box">
+<em class="name">유로스톡스50</em>
+<strong class="current">3,520.46</strong>
+<span class="rate rate_up">22.97 +0.66%</span>
+</div>
+</a>
+</div>
+<div>
+<a href="https://finance.naver.com/marketindex/exchangeDetail.nhn?marketindexCd=FX_USDKRW" class="card_stock type_exchange" data-clk="squ.usd">
+<strong class="stock_title">환율</strong>
+<div class="stock_box">
+<em class="name">USD</em>
+<strong class="current">1,107.00</strong>
+<span class="rate rate_up">0.50 +0.05%</span>
+</div>
+</a>
+</div>
+</div>
+</div> <!-- EMPTY --> </div>  <div id="veta_branding"> <iframe id="da_iframe_rolling" name="da_iframe_rolling" data-iframe-src="https://siape.veta.naver.com/fxshow?su=SU10601&amp;nrefreshx=0" data-veta-preview="main_rolling" title="광고" width="350" height="200" marginheight="0" marginwidth="0" scrolling="no" frameborder="0"></iframe> <span class="veta_bd_t"></span> <span class="veta_bd_b"></span> <span class="veta_bd_l"></span> <span class="veta_bd_r"></span> </div>   <div id="shopcast" class="sc_shopcast"> <iframe id="shopcast_iframe" data-iframe-src="https://castbox.shopping.naver.com/shoppingboxnew/main.nhn" title="쇼핑캐스트" width="350" height="1539" marginheight="0" marginwidth="0" scrolling="no" frameborder="0"></iframe> </div> </div> </div> <a id="NM_scroll_top_btn" href="#wrap" class="content_top"><span class="blind">TOP</span></a> <button id="NM_darkmode_btn" type="button" role="button" class="btn_theme" aria-pressed="false"  > <span class="blind">라이트 모드로 보기</span> </button> </div> <div id="footer" role="contentinfo"> <div class="footer_inner"> <div class="banner_area"> <div class="da_box_wrap">    <div id="da_public_left"> <iframe id="da_iframe_bottom_left" data-iframe-src="https://siape.veta.naver.com/fxshow?su=SU10641&amp;nrefreshx=0" title="광고" width="350" height="86" scrolling="no" frameborder="0"></iframe> </div> <div id="da_public_right"> <iframe id="da_iframe_bottom_right" data-iframe-src="https://siape.veta.naver.com/fxshow?su=SU10642&amp;nrefreshx=0" title="광고" width="350" height="86" scrolling="no" frameborder="0"></iframe> </div> <div id="veta_time2"> <iframe id="da_iframe_below" name="da_iframe_below" data-iframe-src="https://siape.veta.naver.com/fxshow?su=SU10640&amp;nrefreshx=0" data-veta-preview="main_below" width="350" height="86" scrolling="no" frameborder="0" title="광고"> </iframe> </div> </div> </div> <div class="notice_area" data-clk-prefix="ntc"> <div class="notice_box"> <h3 class="title"><a href="https://www.naver.com/NOTICE">공지사항</a> </h3> <!-- EMPTY --> </div> <a href="more.html" class="link_all" data-clk="svcmap">서비스 전체보기</a> </div> <div class="aside_area"> <div class="partner_box_wrap"> <div class="partner_box" data-clk-prefix="crt"> <h3 class="title">Creators</h3> <a href="https://www.navercorp.com/service/creators" class="link_partner" data-clk="creator">크리에이터</a> <a href="https://www.navercorp.com/service/business" class="link_partner" data-clk="smbusiness">스몰비즈니스</a> </div> <div class="partner_box" data-clk-prefix="crt"> <h3 class="title">Partners</h3> <a href="https://business.naver.com/service.html" class="link_partner" data-clk="service">비즈니스 · 광고</a> <a href="https://sell.storefarm.naver.com/#/home/about" class="link_partner" data-clk="store">스토어 개설</a> <a href="https://smartplace.naver.com" class="link_partner" data-clk="place">지역업체 등록</a> <a href="https://expert.naver.com/?tab=guide#join" class="link_partner" data-clk="expert">엑스퍼트 등록</a> </div> <div class="partner_box" data-clk-prefix="crt"> <h3 class="title">Developers</h3> <a href="https://developers.naver.com" class="link_partner" data-clk="center">네이버 개발자 센터</a> <a href="https://developers.naver.com/docs/common/openapiguide/#/apilist.md" class="link_partner" data-clk="openapi">오픈 API</a> <a href="https://naver.github.io" class="link_partner" data-clk="opensource">오픈소스</a> <a href="https://d2.naver.com" class="link_partner" data-clk="d2">네이버 D2</a> <a href="http://d2startup.com" class="link_partner" data-clk="naverD2SF">네이버 D2SF</a> <a href="https://www.naverlabs.com" class="link_partner" data-clk="labs">네이버 랩스</a> </div> </div> <div class="service_box_wrap"> <div class="service_box" data-clk-prefix="wbd"> <a href="http://whale.naver.com/" class="service_logo" data-clk="bt"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAC91BMVEUAAACE1dAbf6jE1Nq/z9e82drQ3OG7ytOzws+6x9QNs7MeLpQSx60QrLAfL50gMakTxKyzwc8fMacSr6yywc8fMKIdLYzJ1d4KrrW6ydMJrrUbr6QgMKW2xNEcr6W7ydUfL5cIr7XBztgMtbMeL50fMaQQzrI0tK4cLIQUvqsVvqofMKLL0eGzxM+4xtIZuKcJr7XCyNt0xsILsLW1w9AdLYZwvL8gMaoeLY6CzMceLYyxz9fI1d0JwLMeLY4KrbXFzeAgMqvN2OEIrLUGsrVIurMfLpAcLIIIsbVWs7MeLpXIzt0UvakgMqwfL5x4wcEJsLYfMagWt6k6qqoil6DV2+UdK4EeMoEfLpOzws4/s7YgMacXvqoC27QcK38B17TE1dobKW0bKnID0bTP3OACzrQcKngcLIMbKXAD07QeLYfi6uzY4+YfLpDN2+DK2d0cK3zU4eTS3+IFzLQeL5ccKnXk7O7G19wgMJ3R3uHa5ejL2t7c5unI2Nzg6esBxrMfMKPp7vEeLYrr8fMNr7X2+PkeLYzt8vQE2LTx9fYfLpPz9/gHyLMOsrUHr7UCybQLs7YKu7UIuLUFvLQGwbUIxbQGw7QcKnTZ5OfV4uUJv67e5+rd5+rl7e8Ju6z3+vvm7vDp8PHs8vPw9fbv9PUgMaj6/PwgMqwJs6kNw7AFubULtrUGtbUJvrQEv7QAwq8MrqYKuKsKtqn+/v4Osaf7/P0K1rMHq6UeqKQNqKQhNoIgSH0Vvqoie5MhWIdV3cAcsaYhhZoglJkdLXnJ7+ia5tU61rgp1rceoKIhb4whZYgcM3fj9vJw3sdJx7xtd6sXt6hCT5AvPpAfPYQbKIMcJ34fP3q+8uSy49ux0tWd2NKYzM+A48yE08t6xchdv8FP0b1zfbcSpKIgToEbJ3nE5OG12Nmn19WM5tGKk8ehqMZlxcJJuLwgtLcbvbYc2bUTtaknNpA1Q4bZ7uuzuNuP3M9p0cNfbLUKtq5IVqk8Sp8jZpxaZZrUCA9eAAAAXXRSTlMABAj99BcO6IpfLhj9hPLp5ryyq6ZzXDnd2cuYkHtzbFFOQj0yJv76+ebc29fXx8TCuJuVlIqHgX5gPS0kEvn49/f08O3t6+fj2tLR0MzGeGNfWvbz7sXBpYN4PB4CDkIdAAAFcUlEQVRo3q3TdVwTYRjA8eeI0SKgYnd3d3d362tgO7u7Y4rd3d2K4pwwQkAQJUSxu7vbPzwYg9vufe+eO/neP9vtPr/n7t53gFMobxXPVu719pu4t/LM2a4gBwioeGZP9/0U9TyrFEyHepUSeyW45+wB/8GmXetZskpkdlGbz+w+CyVDThdV+QyT0FSMyFtikiIZMnOggIvnOMWaFwS0LBkkQj/q/mL8UpVDvv2ui6V89XvF+qm1C2rnNx8u6ferq8zfGlcHWdUbD/8PtbPI7p7aC5R49Mn6TFWZ5Z2jzKNPolOVJPtD04HEhLxFh6YH5lsqWHQQ1dVBCjFW2qUJo+8Xq3BAUeputenci27Qo6u9FGpC+8dV6pUODAZDQkKCwdAFRNz+s2wMiYwbQkwi7oWVBCvOHUep9yQkTkfMIsIv+/HygKVigaPoYuMFX+InGEQXJIS4kjRBN/b5JZutAaHcxDhQ3gVD7AWrU0a9TpgPO5OqnMUOciWJA9O8jh+IYwwmAhE39gnMrwFpchByQXCjn/kvCOf1ROil7z4LgnWuVZiQ8UpFh/gTgYs3tlvzFj4AiVbYN7oSoaDL20VaQAou6drE9UpcCCUWruyeL+ZbM3UL8Yw+YrHD4n2ozgdY9X3n05g3UnHCC6R0Xvv9pfaj/ImFoN3zqbQcJOlJkugpofWfafnoSGIp4rIvg5N5iXn+0aIS7vUQ/zBfFtMyFyPJogajXOpHrIQvYprNJf0JiEkAJu8TQqwF7VnE5mTaQyaX5PvRwUQkbLeEpH1UhqRw9ZHrP3ElInf3SOkEABmJWWhfaVG9iciHywulzNWAjY6kuiSV9wklFOELpeWHAsINZ2T3+d1JcXHrLmkVITcRGMJ8hsDehCZ8rozSkINYCKTmn8QRQn8AuQElwYtYCj4vyieG6gjdy51y6kMZYkUXmmj58kP9CcOHL7PlaKElEdEFR5031wPjCNvd2fKgOKHqF6CP1AeI7j1k+PA/aSfDdsiDjESBgDm8SJIiaCuCsgH6a7xAkuLmBASFA67zzAMuanEDdAoUHvX06dNgncldLQYU763Ex6hLkebPz7TaCfIHtOyt0kMtCpRROyAc1R8GXvy1Q1Qc/htmYNQFtyHqXEH1N2eD9ioH3NyM4gHO/VSJ2IKTC7ixqgZ8m4bjDVBMTb/waFx/IwfgNUCFK1NwHACgvZoBN5EDMgGAzRJWZSyz/3ADkjfwGo1V7PYwnPoc8MovZ2Dll18cjRzgAUnsDy5hYE24NwwpPyRrNJNuOcOSZxtx7MCk2kG6JQzfRyM5Qooix2lmsjxH9qdqIEX5TTRrGR6OQcoEZlwRSp/5BC/GjEYdI+whVfltYgfX0sXgH0CgiKh/fB3D7ck4thoQqHbS2kFGP2YyUi6w0OyUpW1rGG73x3HgwIJ98AGhU0cZ/Rhkf2oNsNLGYsC2YwwvkAMcQaTZ6TQfjzK8QfazcSDCdTiRajXD++cjUOzsgaKG3tz/uZLhHq4/PT9QVTt3NtmB1QwxI3EDnIChzeNzvLMrGd7fmoriCEyVH/P9Qyx3cP2KAJITDq9iuD8SxREkdT/C6j+Yjup3A0nOTQ8zPJiIyds6gaQCDY8wvJk4HcHOGyS1XbqC4f50jNL2IMWmwlKGd3cmItjmknn92VcwvL2F6ZeqKX37bszbv98HwU5mdfNlncfw4FYf3kSpg887aqQ3T1lW/u2dPnLk8/nKLmMoW9nDVjZfyomTzjdl1BtWcAYA+zylpGY4ONYEOc5u2evMs5a1QoHU+9I4ZXKwpcU98tgDDufc1s0re9YGdZYta5A1u5dbvlpgReOdp6JHNgc7fpCtnUO20ply5UfG/wEFXaai/lOVTwAAAABJRU5ErkJggg==" alt="웨일" width="48" height="48"> </a> <div class="service_info"> <strong class="title">웨일 브라우저</strong> <a href="http://whale.naver.com/" class="dsc" data-clk="bt">다운받기</a> </div> </div> <div class="service_box" data-clk-prefix="prj"> <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%BD%83" class="service_logo" data-clk="link"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAABkCAMAAAA47XeXAAAAgVBMVEUAAADN5PdGm99Gm99Gm99Gm99Gm95Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gm99Gmt9Gm99Gm99Gm99Gm95Gm99Gm99Gm95Gm99Hm99Gm99Gm9/////3+/5cp+LO5PfR5/fO5fdcp+P7/f/zv5GhAAAAInRSTlMA/v7vH9u5qJNgGwb6l8a9uqF9WFUyLxYMCtbVmLCwe4OCj8gzEgAAA0NJREFUaN7NmmFz4iAQhkkwMTHGWrWtWvWuq8mF+/8/8Ey2nb0OhSwQZnw+MHQ7pbjAy2s2gsuiLPJMLpcyy4tyISZltnmHbxw3MzEVr/MUNNL5q5iCt2ccXCN9fhPB7CQYkTsRRlWDlboSAexzGCHfC28OKxhldfDOzBMwePLNTw0sauHFFphshQcLCUwkaQRfXYBPSkrEUBdv3jezcXXhw1ciUhc+fCUidQlH7qzqEk5d2dQlnHxvU5dwVgdXdSGclaiGyamt6hLO1qIu4ZASzcFE092SBprk1jagulvXAAw/qb5N7m176xQYmOPoLymYaK/X65/PNhlagE6LGUhfRM8FjNzuf/73//bHmInzoJEpjMyeWpp9RzGz/PT6+QvMNO2Q+67PPeYZY5h7jDVg5OM+/BGikd13JfDAj/Ad1WLMyEyUwKPT00ypN1GKAljQJtFiFgqRe86eYhbWIvPPPR5d+9pKiIgUwKNJdHXBvW9jyRye1EWLWYfnJcd141Byspizz7gbUyWDuqiW0v15D9g3ZgF86JwyKUgUHJaATUmS5rsEdkkTZLjZS8Alw+skFr8Nl6H6uosShaKOp3Zo+/jgFTDe+wcSfv0yFGfQaLX7tDO0reXOPRuMCG4Q11Y3IiYblWgzS7R+h31qdRtlGB7zikeUckz+AB3a8FuMqD7Cd2nhUHLOEIkLubQIkEuLxIdwEwUy3HyXxsbgPMJcGuGox+TSIugxuTQ+KHIaAS5N92eIIuMT5tJoPfHy5q9yKoXLelLuKRri0mjMQdhwTPw6Sv8pzKXhFyhNilEwkSCXRrnAnaPnJdyl0UrqXircpeHVglnv+62K4NJo3lFcGmWd79KO7OQoXAE8XNO6tIQGxj7fpfHTwk8RubQLWEGvgTNGKzj01fixunCMCCYcvSSlaFwUyKVx86J3bczpUR3zimq1LqdosAUbJF54ar+uk5Gju436mPTk8ZAXFdO93HRYTesUVgf3B+y0XdxLfdVputmfKp/iBtNjyl3c0kzUwtJIWewIPvAL9LOyWLsV9WAps3VRzh6hJBm3oOqsRKfHLGYzS/GP+iLBuBKdqkd+iWPkFZTHf4Em4us/uhI5qss/6zK5u8+AXpwAAAAASUVORK5CYII=" alt="꽃" width="47" height="50"> </a> <div class="service_info"> <strong class="title">프로젝트 꽃</strong> <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%BD%83" class="dsc" data-clk="link">바로가기</a> </div> </div> </div> </div> <div class="corp_area" data-clk-prefix="plc"> <h3 class="blind">네이버 정책 및 약관</h3> <ul class="list_corp"> <li class="corp_item"><a href="https://www.navercorp.com" data-clk="intronhn">회사소개</a></li> <li class="corp_item"><a href="https://recruit.navercorp.com/naver/recruitMain" data-clk="recruit">인재채용</a></li> <li class="corp_item"><a href="https://www.navercorp.com/naver/proposalGuide" data-clk="contact">제휴제안</a></li> <li class="corp_item"><a href="/policy/service.html" data-clk="service">이용약관</a></li> <li class="corp_item"><a href="/policy/privacy.html" data-clk="privacy"><strong>개인정보처리방침</strong></a></li> <li class="corp_item"><a href="/policy/youthpolicy.html" data-clk="youth">청소년보호정책</a></li> <li class="corp_item"><a href="/policy/spamcheck.html" data-clk="policy">네이버 정책</a></li> <li class="corp_item"><a href="https://help.naver.com/" data-clk="helpcenter">고객센터</a></li> </ul> <address class="addr"><a href="https://www.navercorp.com" target="_blank" data-clk="nhn">ⓒ NAVER Corp.</a></address> </div> </div> </div> </div> <div id="adscript" style="display:none"></div> </body> </html>
