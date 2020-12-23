@@ -239,9 +239,6 @@ int main(int argc, char *argv[])
 
   cout << response << endl;
 
-
-  // Parse the (assumed) HTML code
-//  parseHtml(buffer, title);
   htmlDocPtr doc = htmlParseDoc(reinterpret_cast<const xmlChar *>(response.c_str()), NULL);
   if (doc == NULL) {
     std::cerr << "ERR\n";
@@ -251,8 +248,11 @@ int main(int argc, char *argv[])
   auto root_elem = xmlDocGetRootElement(doc);
   print_element_names(root_elem);
 
+  std::string title;
+  // Parse the (assumed) HTML code
+  parseHtml(response, title);
   // Display the extracted title
-//  printf("Title: %s\n", title.c_str());
+  printf("\nTitle: %s\n", title.c_str());
 
   return EXIT_SUCCESS;
 }
