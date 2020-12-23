@@ -2,7 +2,7 @@
 // Created by YongGyu Lee on 2020/12/23.
 //
 
-#include "Curlpp.hpp"
+#include "curlpp.hpp"
 #include <curl/curl.h>
 #include <string>
 

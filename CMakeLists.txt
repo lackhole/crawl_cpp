@@ -12,6 +12,6 @@ include_directories(
         ${LIBXML2_INCLUDE_DIR})
 add_executable(crawl
         main.cpp
-        Curlpp.cpp)
+        curlpp.cpp)
 
 target_link_libraries(crawl ${CURL_LIBRARIES} ${LIBXML2_LIBRARIES})

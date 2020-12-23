@@ -6,7 +6,7 @@
 #include <iostream>
 #include <fstream>
 
-#include "Curlpp.hpp"
+#include "curlpp.hpp"
 
 using std::cout;
 using std::endl;
@@ -226,7 +226,7 @@ print_element_names(xmlNode * a_node, int indent = 0)
 int main(int argc, char *argv[])
 {
 
-  const char* url = "https://foobar123123123afefae.com";
+  const char* url = "https://naver.com";
   std::string response;
 
   Curlpp curlpp;
