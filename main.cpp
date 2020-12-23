@@ -194,14 +194,24 @@ int main(int argc, char *argv[])
 
   // parse string
   xmlSetGenericErrorFunc(NULL, xmlErrorHandler);
-  htmlDocPtr doc = htmlParseDoc(reinterpret_cast<const xmlChar *>(response.c_str()), "UTF-8");
+
+  std::unique_ptr<
+      std::remove_pointer_t<htmlDocPtr>,
+      std::function<void(htmlDocPtr)>>
+  doc = {
+      htmlParseDoc(reinterpret_cast<const xmlChar *>(response.c_str()), "UTF-8"),
+      [](htmlDocPtr doc){
+        xmlFreeDoc(doc);
+        xmlCleanupParser();
+  }};
+
   if (doc == NULL) {
     std::cerr << "Error while parsing html\n";
     return -1;
   }
 
   // xpath example
-  auto result = xpathSearch(doc, "//div[@class='issue_area']");
+  auto result = xpathSearch(doc.get(), "//div[@class='issue_area']");
   if (result) {
     auto nodeset = result->nodesetval;
     for (int i=0; i < nodeset->nodeNr; i++) {
@@ -213,25 +223,11 @@ int main(int argc, char *argv[])
         auto nodeset2 = news->nodesetval;
         for(int j=0; j<nodeset2->nodeNr; j++) {
           auto node2 = nodeset2->nodeTab[j];
-
-//          if(node2->children)
-//            printf("%s\n", node2->children->content);
-
           printNode(node2);
         }
       }
-
-//      print_element_names(node);
-
-//      auto keyword = xmlNodeListGetString(doc, nodeset->nodeTab[i]->xmlChildrenNode, 1);
-//      printf("keyword: %s\n", keyword);
-//      xmlFree(keyword);
     }
   }
-
-
-  xmlFreeDoc(doc);
-  xmlCleanupParser();
 
   return EXIT_SUCCESS;
 }
