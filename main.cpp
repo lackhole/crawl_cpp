@@ -135,8 +135,8 @@ print_element_names(xmlNode * a_node, int indent = 0)
 
 
 
-xmlXPathObjectPtr
-getnodeset (xmlDocPtr doc, const xmlChar *xpath){
+std::unique_ptr<xmlXPathObject, decltype(&xmlXPathFreeObject)>
+xpathSearch(xmlDocPtr doc, const xmlChar *xpath){
 
   xmlXPathContextPtr context;
   xmlXPathObjectPtr result;
@@ -144,32 +144,30 @@ getnodeset (xmlDocPtr doc, const xmlChar *xpath){
   context = xmlXPathNewContext(doc);
   if (context == NULL) {
     fprintf(stderr, "Error in xmlXPathNewContext\n");
-    return NULL;
+    return {nullptr, xmlXPathFreeObject};
   }
   result = xmlXPathEvalExpression(xpath, context);
   xmlXPathFreeContext(context);
   if (result == NULL) {
     fprintf(stderr, "Error in xmlXPathEvalExpression\n");
-    return NULL;
+    return {nullptr, xmlXPathFreeObject};
   }
   if(xmlXPathNodeSetIsEmpty(result->nodesetval)){
     xmlXPathFreeObject(result);
     fprintf(stderr, "No result\n");
-    return NULL;
+    return {nullptr, xmlXPathFreeObject};
   }
-  return result;
+  return {result, xmlXPathFreeObject};
 }
 
-xmlXPathObjectPtr
-getnodeset(xmlDocPtr doc, const char* xpath) {
-  std::string temp(xpath);
-  return getnodeset(doc, reinterpret_cast<const xmlChar*>(temp.c_str()));
+std::unique_ptr<xmlXPathObject, decltype(&xmlXPathFreeObject)>
+xpathSearch(xmlDocPtr doc, const std::string& xpath) {
+  return xpathSearch(doc, reinterpret_cast<const xmlChar *>(xpath.c_str()));
 }
 
-xmlXPathObjectPtr
-getnodeset(xmlNodePtr doc, const char* xpath) {
-  std::string temp(xpath);
-  return getnodeset(reinterpret_cast<xmlDocPtr>(doc), reinterpret_cast<const xmlChar*>(temp.c_str()));
+std::unique_ptr<xmlXPathObject, decltype(&xmlXPathFreeObject)>
+xpathSearch(xmlNodePtr doc, const std::string& xpath) {
+  return xpathSearch(reinterpret_cast<xmlDocPtr>(doc), reinterpret_cast<const xmlChar *>(xpath.c_str()));
 }
 
 void xmlErrorHandler(void *ctx, const char* msg, ...){
@@ -192,7 +190,7 @@ int main(int argc, char *argv[])
   response.resize(curlpp.bufferSize() + 1);
   curlpp.get(const_cast<char *>(response.data()), response.size());
 
-  cout << response << endl;
+//  cout << response << endl;
 
   // parse string
   xmlSetGenericErrorFunc(NULL, xmlErrorHandler);
@@ -203,14 +201,14 @@ int main(int argc, char *argv[])
   }
 
   // xpath example
-  auto result = getnodeset(doc, "//div[@class='issue_area']");
+  auto result = xpathSearch(doc, "//div[@class='issue_area']");
   if (result) {
     auto nodeset = result->nodesetval;
     for (int i=0; i < nodeset->nodeNr; i++) {
       auto node = nodeset->nodeTab[i];
 
 
-      auto news = getnodeset(node, "//a[@href]");
+      auto news = xpathSearch(node, "//a[@href]");
       if (news) {
         auto nodeset2 = news->nodesetval;
         for(int j=0; j<nodeset2->nodeNr; j++) {
@@ -221,8 +219,6 @@ int main(int argc, char *argv[])
 
           printNode(node2);
         }
-
-        xmlXPathFreeObject(news);
       }
 
 //      print_element_names(node);
@@ -231,12 +227,11 @@ int main(int argc, char *argv[])
 //      printf("keyword: %s\n", keyword);
 //      xmlFree(keyword);
     }
-    xmlXPathFreeObject(result);
   }
+
+
   xmlFreeDoc(doc);
   xmlCleanupParser();
-
-
 
   return EXIT_SUCCESS;
 }
