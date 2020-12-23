@@ -1,35 +1,3 @@
-/***************************************************************************
- *                                  _   _ ____  _
- *  Project                     ___| | | |  _ \| |
- *                             / __| | | | |_) | |
- *                            | (__| |_| |  _ <| |___
- *                             \___|\___/|_| \_\_____|
- *
- * Copyright (C) 1998 - 2020, Daniel Stenberg, <daniel@haxx.se>, et al.
- *
- * This software is licensed as described in the file COPYING, which
- * you should have received as part of this distribution. The terms
- * are also available at https://curl.se/docs/copyright.html.
- *
- * You may opt to use, copy, modify, merge, publish, distribute and/or sell
- * copies of the Software, and permit persons to whom the Software is
- * furnished to do so, under the terms of the COPYING file.
- *
- * This software is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY
- * KIND, either express or implied.
- *
- ***************************************************************************/
-/* <DESC>
- * Get a web page, extract the title with libxml.
- * </DESC>
-
- Written by Lars Nilsson
-
- GNU C++ compile command line suggestion (edit paths accordingly):
-
- g++ -Wall -I/opt/curl/include -I/opt/libxml/include/libxml2 htmltitle.cpp \
- -o htmltitle -L/opt/curl/lib -L/opt/libxml/lib -lcurl -lxml2
-*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -269,8 +237,8 @@ print_element_names(xmlNode * a_node, int indent = 0)
   std::string ind(indent, ' ');
 
   for (cur_node = a_node; cur_node; cur_node = cur_node->next) {
-    printf("\n%s", ind.c_str());
     if (cur_node->type == XML_ELEMENT_NODE) {
+      printf("\n%s", ind.c_str());
       printf("<%s", cur_node->name);
 
       for(auto attr = cur_node->properties; attr; attr = attr->next) {
@@ -281,12 +249,21 @@ print_element_names(xmlNode * a_node, int indent = 0)
       printf(">");
 //      printf("node type: Element, name: %s, content:%s\n", cur_node->name, cur_node->content);
     }
-//    if(cur_node->content) {
-//      std::cout << std::string(indent + 2, ' ') << '.';
-//      printf("%s", cur_node->content);
-//    }
+    if(cur_node->content) {
+      if (cur_node->content[0] != ' ' && strnlen(reinterpret_cast<const char *>(cur_node->content), 2) > 1){
+        printf("\n%s", ind.c_str());
+        printf("%s", cur_node->content);
+        if (strncmp(reinterpret_cast<const char *>(cur_node->content), "관심주제 설정", 10) == 0) {
+          int debug = 0;
+        }
+      }
+    }
     print_element_names(cur_node->children, indent + 2);
-    printf("\n%s</%s>", ind.c_str(), cur_node->name);
+    if(cur_node->type == XML_ELEMENT_NODE){
+      if(cur_node->children)
+        printf("\n%s", ind.c_str());
+      printf("</%s>", cur_node->name);
+    }
   }
 }
 
