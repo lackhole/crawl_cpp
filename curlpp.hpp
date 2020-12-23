@@ -18,7 +18,7 @@ class Curlpp {
 
   bool request(const char* url);
 
-  void get(char* buffer, std::uint_fast32_t max_size);
+  void get(char* buffer, std::uint_fast32_t max_size) const;
 
   std::uint_fast32_t bufferSize() const;
 

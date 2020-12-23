@@ -29,7 +29,7 @@ class Curlpp::Impl {
 
   bool request(const char* url);
 
-  void copyTo(char *dst, std::uint_fast32_t n = -1);
+  void copyTo(char *dst, std::uint_fast32_t n = -1) const;
 
   std::uint_fast32_t bufferSize() const;
 
@@ -108,7 +108,7 @@ Curlpp::Impl::~Impl() {
     curl_easy_cleanup(conn);
 }
 
-void Curlpp::Impl::copyTo(char *dst, std::uint_fast32_t n) {
+void Curlpp::Impl::copyTo(char *dst, std::uint_fast32_t n) const {
   strncpy(dst, buffer.c_str(), std::min<std::uint_fast32_t>(buffer.size(), n));
 }
 
@@ -128,7 +128,7 @@ Curlpp::~Curlpp() {
 bool Curlpp::request(const char *url) {
   return pImpl->request(url);
 }
-void Curlpp::get(char *buffer, std::uint_fast32_t max_size) {
+void Curlpp::get(char *buffer, std::uint_fast32_t max_size) const {
   return pImpl->copyTo(buffer, max_size);
 }
 
