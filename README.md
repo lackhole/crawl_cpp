@@ -3,8 +3,9 @@ C++ web crawl
 
 
 ## Requirements
-* libcurl
-* libxml2
+* CMake
+* [libcurl](https://curl.se/libcurl/) 
+* [libxml2](http://xmlsoft.org/)
 
 ### Example output
 * You can ignore parse errors  
