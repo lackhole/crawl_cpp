@@ -5,6 +5,7 @@
 #include "curlpp.hpp"
 #include <curl/curl.h>
 #include <string>
+#include <cstring>
 
 static int writer(char *data, size_t size, size_t nmemb,
            std::string *writerData)
